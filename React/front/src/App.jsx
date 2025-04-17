@@ -2,33 +2,53 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header'
+import Nav from './components/Nav'
+import Main from './components/Main'
+import Footer from './components/Footer'
+import Gallery from './components/Gallery'
+import Nab from './components/Nab'
+import Head from './components/Head'
+import Home from './components/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const user = "Anthony"
+  const type = "admin"
 
+  const items = ['Inicio', 'Acerca de', 'Contacto', 'Servicios']
+  
+  const [section, setSection] = useState('Inicio')
+  
+  const renderContent = () => {
+    switch (section) {
+      case 'Home':
+        return <div>Inicio Content</div>
+      case 'Acerca de':
+        return <div>Acerca de Content</div>
+      case 'Contacto':
+        return <div>Contacto Content</div>
+      case 'Servicios':
+        return <div>Servicios Content</div>
+      default:
+        return <div>Default Content</div>
+    }
+  }
+ 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="d-flex flex-column min-vh-100">
+      
+      <Header />
+      <Head user={user} type={type} />
+      <Nab items={items} onSeleccion={setSection} />
+      
+      <Nav />
+      <Main className='flex-grow-1 p-3'>
+      {renderContent()}
+      </Main>
+      <Home/>
+      <Gallery />
+      <Footer />
+    </div>
   )
 }
 
