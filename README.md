@@ -60,31 +60,31 @@ The repository includes projects using the following technologies:
 
 The general structure of the repository is as follows:
 
-```
+```playground
+
 Learning Framework (LearnFW)/
 │
 ├── README.md                  <- Explain the purpose of the repository
 │
 ├── Symfony/
 │   ├── README.md              <- Describe the Symfony projects
-│   ├── crud/
-│   ├── ecommerce/
-│   └── api_rest/
-│
+│   └──.../
 ├── Laravel/
 │   ├── README.md              <- Describe the Laravel projects
-│   └── ...
-│
+│   └──.../
+├── Angular/
+│   └──.../
 ├── Django/
-│   └── ...
-│
+│   └──.../
 ├── SpringBoot/
-│   └── ...
-│
+│   └──.../
+├── Next.js/
+│   └──.../
+├── Nest.js/
+│   └──.../
 └── React/
-    └── ...
+    └──.../
 ```
-
 
 Each framework (e.g., Symfony, React, Node.js) has its own dedicated folder where related projects are stored.
 
