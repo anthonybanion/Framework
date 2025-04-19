@@ -49,40 +49,92 @@ Symfony/
 
 ## 📚 Learning Path
 
-- [ ] **Basics**: Start with the `basics/` folder to learn about routing, controllers, and services.
-- [ ] **Entity**: Move to `Entity/` to understand Doctrine entities and database interactions.
-- [ ] **Repository**: Explore `Repository/` for custom repositories and data queries.
-- [ ] **Service**: Learn about services and dependency injection in `Service/`.
-- [ ] **Routing**: Dive into `routing/` for URL routing and controllers.
-- [ ] **Controllers**: Understand controllers and actions in `controllers/`.
-- [ ] **Services**: Learn about services and dependency injection in `services/`.
-- [ ] **Templates**: Explore Twig templates and rendering in `templates/`.
-- [ ] **Forms**: Understand forms and validation in `forms/`.
-- [ ] **Authentication**: Learn about user authentication and permissions in `authentication/`.
-- [ ] **Static Files**: Understand static files in `static_files/`.
-- [ ] **Media Files**: Learn about media files in `media_files/`.
-- [ ] **Testing**: Explore testing in `testing/` using PHPUnit and Symfony's test framework.
-- [ ] **Deployment**: Understand deployment configurations in `deployment/` using Docker, Heroku, etc.
-- [ ] **API Development**: Learn about API development with Symfony API Platform in `api/`.
-- [ ] **Advanced Topics**: Explore advanced topics in `advanced/` such as events, middleware, and custom commands.  
-- [ ] **Best Practices**: Follow best practices for code organization, file naming, and documentation.
-- [ ] **Resources**: Check out additional resources in `resources/` for further learning and exploration.
-- [ ] **Contribute**: If you have any projects or resources to share, feel free to contribute to the `projects/` or `resources/` folders.
-- [ ] **Community**: Join the Symfony community for discussions, support, and collaboration.
-- [ ] **Symfony Documentation**: Refer to the official Symfony documentation for in-depth knowledge and best practices.
-- [ ] **Symfony Open Source**: Contribute to open-source Symfony projects on GitHub to gain experience and collaborate with other developers.
-- [ ] **Symfony Ecosystem**: Familiarize yourself with the Symfony ecosystem, including libraries like Symfony Flex, Symfony Messenger, and Symfony Webpack Encore.
-- [ ] **Symfony Deployment**: Understand deployment strategies for Symfony applications, including using Docker, Heroku, and AWS.
-- [ ] **Symfony Performance**: Explore performance optimization techniques for Symfony applications.
-- [ ] **Symfony Security**: Learn about security best practices for Symfony applications.
-- [ ] **Symfony Testing**: Understand testing strategies for Symfony applications, including unit tests, functional tests, and integration tests.
-- [ ] **Symfony Debugging**: Familiarize yourself with debugging tools and techniques for Symfony applications.
-- [ ] **Symfony Profiling**: Use Symfony's built-in profiler for performance analysis and debugging.
-- [ ] **Symfony Caching**: Learn about caching strategies for Symfony applications.
-- [ ] **Symfony Internationalization**: Understand internationalization and localization in Symfony applications.
-- [ ] **Symfony API Development**: Explore API development with Symfony, including RESTful APIs and GraphQL.
-- [ ] **Symfony Event-Driven Architecture**: Learn about event-driven architecture in Symfony applications.
-- [ ] **Symfony Middleware**: Understand middleware and its role in Symfony applications.
-- [ ] **Symfony Custom Commands**: Explore creating custom console commands in Symfony.
-- [ ] **Symfony Custom Bundles**: Learn about creating custom bundles for reusable components in Symfony applications.
-- [ ] **Symfony Custom Twig Extensions**: Explore creating custom Twig extensions for reusable templates.
+This learning path is designed to take you from Symfony fundamentals to advanced architectural mastery. It follows a hands-on structure using the folders in this repo and covers both core concepts and ecosystem tools.
+
+
+
+### 🧭 Stage 1 — Getting Started
+- [ ] **Introduction**: Understand what Symfony is, its philosophy, and how it compares to other frameworks.
+- [ ] **Installation & Setup**: Install Symfony CLI, Composer, and create your first Symfony project.
+- [ ] **Folder: `basics/`**
+
+
+
+### 🧱 Stage 2 — Core MVC & Routing
+- [ ] **Routing**: Learn how routing works in Symfony using YAML, annotations, or PHP config.
+- [ ] **Controllers**: Create controller classes and actions for handling HTTP requests.
+- [ ] **Twig Templates**: Use the Twig engine to create dynamic views.
+- [ ] **Folder: `routing/`, `controllers/`, `templates/`**
+
+
+
+### 🛠️ Stage 3 — Data, Services & Forms
+- [ ] **Doctrine Entities**: Map database tables with Doctrine ORM using entity classes.
+- [ ] **Repositories**: Create custom repository methods for complex data access logic.
+- [ ] **Services & DI**: Learn about services, autowiring, dependency injection, and service configuration.
+- [ ] **Forms & Validation**: Build and validate forms with Symfony’s Form component.
+- [ ] **Folder: `Entity/`, `Repository/`, `services/`, `forms/`**
+
+
+
+### 🔐 Stage 4 — Authentication, Security & Files
+- [ ] **Authentication**: Implement user login, registration, and roles with security.yaml.
+- [ ] **Authorization**: Manage access using voters, access control, and firewalls.
+- [ ] **Static & Media Files**: Serve static assets and handle file uploads.
+- [ ] **Folder: `authentication/`, `static_files/`, `media_files/`**
+
+
+
+### 🌐 Stage 5 — APIs & Asynchronous Operations
+- [ ] **API Platform**: Build RESTful APIs and GraphQL endpoints using the API Platform bundle.
+- [ ] **Event-Driven Architecture**: Use Symfony events and listeners for decoupled design.
+- [ ] **Middleware & Custom Commands**: Implement custom HTTP middleware and console commands.
+- [ ] **Folder: `api/`, `advanced/`**
+
+
+
+### 📦 Stage 6 — Ecosystem & Bundles
+- [ ] **Explore the Ecosystem**:
+  - **Symfony Flex** for managing dependencies
+  - **Webpack Encore** for asset management
+  - **Messenger** for handling queues and async tasks
+- [ ] **Custom Bundles**: Create reusable bundles for modular architecture.
+- [ ] **Custom Twig Extensions**: Extend Twig with your own filters and functions.
+- [ ] **Folder: `advanced/` or separate folders as needed**
+
+
+
+### 🧪 Stage 7 — Testing, Debugging & Profiling
+- [ ] **Testing Strategy**: Write unit, functional, and integration tests with PHPUnit.
+- [ ] **Debugging**: Use Symfony’s Debug Toolbar and Logger.
+- [ ] **Profiling**: Analyze requests and performance using the Symfony Profiler.
+- [ ] **Folder: `testing/`**
+
+
+
+### 🚀 Stage 8 — Deployment & Optimization
+- [ ] **Deployment**: Deploy Symfony apps with Docker, Heroku, or AWS.
+- [ ] **Caching**: Implement caching layers (HTTP, Doctrine, Twig).
+- [ ] **Performance**: Optimize routes, services, queries, and assets.
+- [ ] **Internationalization**: Support multiple languages with Symfony Translator.
+- [ ] **Folder: `deployment/`**
+
+
+
+### 🧩 Stage 9 — Real Projects & Best Practices
+- [ ] **Projects**: Build complete apps using everything learned.
+- [ ] **Best Practices**: Follow Symfony’s guidelines for directory structure, naming, configuration, and security.
+- [ ] **Folder: `projects/`**
+
+
+
+### 🌍 Stage 10 — Community & Open Source
+- [ ] **Resources**: Use `resources/` for articles, tutorials, and cheatsheets.
+- [ ] **Symfony Docs**: Always refer to the [official documentation](https://symfony.com/doc).
+- [ ] **Join the Community**: Engage through forums, Discord, GitHub, and SymfonyCasts.
+- [ ] **Contribute to Open Source**: Collaborate on Symfony projects and bundles.
+- [ ] **Stay Updated**: Follow Symfony changelogs, blogs, and events.
+
+---
+
+By completing this path, you’ll gain the skills to build enterprise-grade web applications with Symfony and confidently contribute to the broader PHP ecosystem.
