@@ -1,20 +1,21 @@
-import React from 'react';
-function Nav() {
+import {Nav as  Navbar, Container, BoosttrapNav} from 'react-bootstrap';
+
+function Nav({items, onSeleccion})
+{
+    
     return (
-        <nav style={{ backgroundColor: "#333", color: "white", padding:
-        "10px" }}>
-            <ul style={{ listStyle: "none", display: "flex",
-            justifyContent: "space-around", margin: 0 }}>
-                <li><a href="#" style={{ color: "white",
-                textDecoration: "none" }}>Inicio</a></li>
-                <li><a href="#" style={{ color: "white",
-                textDecoration: "none" }}>Acerca de</a></li>
-                <li><a href="#" style={{ color: "white",
-                textDecoration: "none" }}>Contacto</a></li>
-                <li><a href="#" style={{ color: "white",
-                textDecoration: "none" }}>Servicios</a></li>
-            </ul> 
-        </nav>
-    ); 
+        <Navbar bg="light" expand="lg">
+            <Container>
+                <BoosttrapNav className="me-auto" style={{ display: 'flex', justifyContent: 'space-around' }}>
+                    {items.map((item, index) => (
+                        <BoosttrapNav.Link key={index} onClick={() => onSeleccion(item)}>
+                            {item}
+                        </BoosttrapNav.Link>  
+                    ))}
+                </BoosttrapNav>
+            </Container>
+        </Navbar>
+    );
 }
+
 export default Nav;

@@ -7,8 +7,6 @@ import Nav from './components/Nav'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import Gallery from './components/Gallery'
-import Nab from './components/Nab'
-import Head from './components/Head'
 import Home from './components/Home'
 
 function App() {
@@ -37,11 +35,9 @@ function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
       
-      <Header />
-      <Head user={user} type={type} />
-      <Nab items={items} onSeleccion={setSection} />
-      
-      <Nav />
+      <Header user={user} type={type} />
+      <Nav items={items} onSeleccion={setSection} />
+    
       <Main className='flex-grow-1 p-3'>
       {renderContent()}
       </Main>
