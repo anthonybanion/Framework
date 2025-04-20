@@ -12,10 +12,14 @@ Whether you're just getting started with backend development or aiming to build 
 - Master advanced Django features like class-based views, middleware, and Django REST Framework (DRF) for building APIs.
 - Develop full-fledged Django applications with an emphasis on best practices and security.
 
-## 📂 Folder Structure
-This directory is divided into two main sections: **playground** and **projects**.
+---
 
-```
+## 📂 Folder Structure
+
+This section is organized into folders and subfolders to help you navigate through the learning process. Each folder contains practical examples, exercises, and projects to reinforce your understanding of Django.
+
+```text
+
 Django/
 ├── README.md
 ├── playground/                 # Django playground for learning and experimentation
@@ -35,8 +39,9 @@ Django/
     ├── small_projects/         # Simple projects to practice basics
     ├── basic_projects/         # Basic projects to practice intermediate concepts
     ├── advanced_projects/      # Advanced projects to practice complex concepts
-    ├── completed_projects/      # Completed projects for reference
-    └── archived_projects/       # Archived projects for historical reference
+    ├── completed_projects/     # Completed projects for reference
+    └── archived_projects/      # Archived projects for historical reference
+    
 ```
 
 ---
@@ -94,8 +99,19 @@ This learning path is designed to guide you from beginner to advanced in Django.
 - [ ] **Join Online Courses**: Consider taking structured courses to deepen your knowledge.
 
 ---
+## 🤝 Contribution & Community
+- [ ] **Contribute**: Feel free to contribute to this repository by adding more resources, projects, or improving the documentation.
+- [ ] **Community**: Join Django communities on Reddit, Discord, or Stack Overflow to ask questions and share knowledge.
+- [ ] **Stay Updated**: Follow Django's official blog, GitHub repo, and community resources for the latest updates.
+- [ ] **Resources**: Add links to documentation, tutorials, and examples in the `resources/` folder (if created).
+- [ ] **Open Source**: Contribute to Django or ecosystem tools on GitHub.
+---
 
 This structured path combines theory, practice, and community involvement to help you grow as a Django developer.
 
 ---
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>
 

@@ -1,23 +1,16 @@
-# LearnFW - Learning Frameworks
+# 📘 LearnFW — A Practical Journey Through Web Frameworks
 
-Welcome to **LearnFW**, a personal repository for learning and practicing with various web frameworks. This repository contains mini-projects, CRUD applications, APIs, and full-stack experiments developed using frameworks like:
+Welcome to **LearnFW** — a curated repository for hands-on learning with modern web development frameworks.
 
-- **Django**
-- **Laravel**
-- **Symfony**
-- **React**
-- **Vue.js**
-- **Node.js**
-- **Next.js**
-- **Express.js**
-- and more...
+This space serves as my personal lab to explore core concepts, build real features, and strengthen practical skills through structured mini-projects and experiments.
 
-Each project is designed to help improve understanding and hands-on skills with these frameworks. You will find small and medium-sized projects, including basic functionality like CRUD operations, authentication, and more.
+I believe the best way to grow as a developer is simple: **build, break, and learn.**
+
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
+- [Technologies used](#technologies-used)
 - [Folder Structure](#folder-structure)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
@@ -27,107 +20,103 @@ Each project is designed to help improve understanding and hands-on skills with 
 
 This repository is dedicated to learning and mastering various web frameworks. The goal is to gain practical experience through the development of simple and complex applications. From backend to frontend, you will find projects that allow you to explore both the server-side logic and client-side rendering.
 
-## Technologies Used
+## Technologies used
+Each badge links to the corresponding framework's README with learning paths, examples, and projects.
 
-The repository includes projects using the following technologies:
+### 🎨 UX UI Design 
 
-- **Backend:**
-  - Django
-  - Laravel
-  - Symfony
-  - Node.js
-  - Express.js
-  - Spring Boot
-  - and more...
+[![Figma Link](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white 'Figma Link')](https://www.figma.com/files/recents-and-sharing?fuid=1121329785337751851)
 
-- **Frontend:**
-  - React
-  - Vue.js
-  - Next.js
 
-- **Database:**
-  - MySQL
-  - PostgreSQL
-  - SQLite
 
-- **Tools:**
-  - Composer (for PHP)
-  - npm (for JavaScript)
-  - Docker (for containerization)
-  - Git and GitHub (for version control)
+
+### 🎆 Front End 
+
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](./Angular/README.md)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](./React/README.md)
+[![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)](./Svelte/README.md)
+[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)](./Vue/README.md)
+
+
+### 🧰 Back End 
+ 
+[![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](./Django/README.md)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](./Express/README.md)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](./FastApi/README.md)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](./Flask/README.md)
+[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](./Laravel/README.md)
+
+[![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](./Nest/README.md)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](./Next/README.md)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](./SpringBoot/README.md)
+[![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)](./Symfony/README.md)
+
+
+### 🗄️ Databases Used 
+
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)](https://mariadb.org/)
+
+---
 
 ## Folder Structure
 
 The general structure of the repository is as follows:
 
-```playground
+
+```text
 
 Learning Framework (LearnFW)/
 │
 ├── README.md                  <- Explain the purpose of the repository
-│
-├── Symfony/
+|
+├── Angular/
 │   ├── README.md              <- Describe the Symfony projects
+│   └──.../ 
+├── Django/
+│   └──.../
+├── Express/
+│   └──.../
+├── FastApi/
+│   └──.../
+├── Flask/
 │   └──.../
 ├── Laravel/
-│   ├── README.md              <- Describe the Laravel projects
 │   └──.../
-├── Angular/
+├── Nest/
 │   └──.../
-├── Django/
+├── Next/
+│   └──.../
+├── React/
 │   └──.../
 ├── SpringBoot/
 │   └──.../
-├── Next.js/
+├── Svelte/
 │   └──.../
-├── Nest.js/
+├── Symfony/
 │   └──.../
-└── React/
+└── Vue/
     └──.../
 ```
 
 Each framework (e.g., Symfony, React, Node.js) has its own dedicated folder where related projects are stored.
 
-## Getting Started
-
-To get started with this repository, follow these steps:
-
-1. **Clone the repository** to your local machine:
-    ```bash
-    git clone https://github.com/anthonybanion/LearnFW.git
-    ```
-
-2. **Navigate to the desired folder**:
-    ```bash
-    cd LearnFW/Symfony    # Example: for Symfony projects
-    ```
-
-3. **Install the necessary dependencies** (depending on the framework):
-    - For **Symfony**, run:
-      ```bash
-      composer install
-      ```
-
-    - For **Node.js** or **React**, run:
-      ```bash
-      npm install
-      ```
-
-4. **Run the development server**:
-    - For **Symfony**:
-      ```bash
-      symfony server:start
-      ```
-    - For **Node.js** (Express or Next.js):
-      ```bash
-      npm start
-      ```
-
-5. **Explore the projects** and learn from each framework. Each folder contains its own README.md with setup instructions specific to that framework.
+---
 
 ## Contributing
 
 If you have suggestions for new projects or improvements to existing ones, feel free to fork the repository, make your changes, and submit a pull request. Contributions are welcome, and your feedback is valuable.
+
+---
+
+## File Organization Tips
+
+Use ISO 8601 format (`YYYY-MM-DD`) for timestamps in comments and filenames when necessary.  
+You can also include docstrings in the **Google Style** format for complex components and utilities.
+
+---
 
 ## License
 

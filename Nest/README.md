@@ -20,8 +20,10 @@ NestJS combines the best of OOP, FP, and reactive programming with the power of 
 ---
 
 ## 📂 Folder Structure
+This repository is organized into a structured format to help you navigate through the learning process. Each folder contains hands-on examples, isolated features, and full-featured applications.
 
-```plaintext
+```text
+
 NestJS/ 
 ├── README.md 
 ├── playground/                   # Hands-on features and isolated examples 
@@ -107,14 +109,6 @@ This roadmap helps you go from beginner to advanced with NestJS, building real-w
 - [ ] **Cron Jobs & Scheduling**: Use `@nestjs/schedule`.
 - [ ] **Folder: `advanced/`**
 
----
-
-## 💡 Extras
-
-- Use `@nestjs/config` for environment config and modular loading.
-- Stick to SOLID principles — Nest is built for clean architecture.
-- Follow the [NestJS style guide](https://docs.nestjs.com/recipes/style-guide) for best practices.
-- Keep your modules small, cohesive, and reusable.
 
 ---
 
@@ -124,7 +118,15 @@ This roadmap helps you go from beginner to advanced with NestJS, building real-w
 - [ ] **Open Source**: Contribute to NestJS or build public modules/packages.
 - [ ] **Stay Updated**: Follow [nestjs.com](https://nestjs.com), GitHub, YouTube, and Twitter.
 - [ ] **Join the Community**: Get involved via Discord, Reddit, and Stack Overflow.
+- [ ] **Contribute**: Share your projects, modules, or tutorials with the community.
+- [ ] **Feedback**: Open issues or PRs for suggestions, improvements, or corrections.
+- [ ] **Contribute to this repo**: Add your own projects, examples, or resources to the `projects/` or `resources/` folders.
+- [ ] **Share Your Journey**: Document your learning process and share it with others.
 
 ---
 
 Happy coding with NestJS! 🧱🚀  
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>

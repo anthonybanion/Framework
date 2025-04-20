@@ -14,10 +14,10 @@ Whether you're just beginning your backend journey with PHP or looking to level 
 - Deploy Laravel applications using tools like Docker, Forge, and Laravel Vapor.
 
 ## 📂 Folder Structure
+This repository is organized into two main sections: **playground/** and **projects/**. Each section serves a specific purpose in your learning journey.
 
-This directory is organized into two main sections: **playground** and **projects**.
+```text
 
-```
 Laravel/ 
 ├── README.md 
 ├── playground/                 # Learning and experimentation area 
@@ -102,20 +102,20 @@ This learning path is designed to guide you from the PHP fundamentals to masteri
 - [ ] **Best Practices**: Follow the official Laravel style guide and recommended conventions.
 - [ ] **Folder: `projects/` (small, basic, advanced)**
 
+---
 
-### 🌐 Stage 10 — Ecosystem & Community
-- [ ] **Explore the Ecosystem**:
-  - UI: Laravel Breeze, Jetstream, Livewire, Inertia.js
-  - Admin: Nova, Filament
-  - Tools: Horizon, Cashier, Sanctum, Passport
-- [ ] **Resources**: Check out books, Laracasts, YouTube channels, and articles.
-- [ ] **Stay Updated**: Follow Laravel's blog, changelogs, and GitHub repo.
-- [ ] **Join the Community**: Engage via forums, Discord, Twitter, meetups, and conferences.
-- [ ] **Contribute to Open Source**: Collaborate on Laravel packages or core projects.
-- [ ] **Portfolio & Career**: Build a portfolio with Laravel apps and prepare for technical interviews.
-
+## 🤝 Community & Contribution
+- [ ] **Open Source**: Contribute to this repository by adding your projects, resources, or improvements to the learning path.
+- [ ] **Join the Laravel Community**: Engage with the Laravel community on forums, Discord, and GitHub.
+- [ ] **Contribute**: Feel free to contribute to this repository by adding your projects, resources, or improvements to the learning path.
+- [ ] **Feedback**: Share your feedback or suggestions for improving this learning path.
+- [ ] **Follow Laravel News**: Stay updated with the latest Laravel news, releases, and tutorials.
 
 ---
 
 Happy coding with Laravel! 🚀  
 Let’s build elegant and powerful PHP applications together.
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>

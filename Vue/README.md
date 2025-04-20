@@ -19,9 +19,33 @@ Vue's core simplicity, component system, and ecosystem (Vue Router, Pinia, Vuex,
 ---
 
 ## 📂 Folder Structure
+This directory is organized to facilitate a hands-on learning experience. Each folder represents a specific topic or concept within Vue.js, allowing you to explore and practice as you go.
 
-```playground
-Vue/ ├── README.md ├── playground/ # Practice, features and core examples │ ├── getting_started/ # Installation, hello world, CLI, Vite │ ├── components/ # Reusable components, props, slots │ ├── reactivity/ # Reactive refs, computed, watch │ ├── directives/ # Built-in (v-if, v-for) and custom directives │ ├── forms/ # Form bindings, inputs, validation │ ├── events/ # Event binding, emit, modifiers │ ├── lifecycle/ # Lifecycle hooks (setup, mounted, etc.) │ ├── composition_api/ # setup(), refs, reactive, composables │ ├── options_api/ # Data, methods, computed, watchers │ ├── routing/ # Navigation with Vue Router │ ├── state_management/ # Pinia, Vuex, global store patterns │ ├── styling/ # Scoped styles, CSS variables, Tailwind │ ├── testing/ # Unit/component tests with Vitest, Cypress │ ├── deployment/ # Building, hosting and optimization │ └── advanced/ # Provide/inject, dynamic components, SSR └── projects/ # Vue-based projects ├── small_projects/ # Mini apps, UI components ├── basic_projects/ # SPA CRUD, forms, routing └── advanced_projects/ # Full-featured apps with state, auth, backend
+```text
+
+Vue/ 
+├── README.md 
+├── playground/            # Practice, features and core examples 
+│   ├── getting_started/   # Installation, hello world, CLI, Vite 
+│   ├── components/        # Reusable components, props, slots 
+│   ├── reactivity/        # Reactive refs, computed, watch 
+│   ├── directives/        # Built-in (v-if, v-for) and custom directives 
+│   ├── forms/             # Form bindings, inputs, validation 
+│   ├── events/            # Event binding, emit, modifiers 
+│   ├── lifecycle/         # Lifecycle hooks (setup, mounted, etc.) 
+│   ├── composition_api/   # setup(), refs, reactive, composables 
+│   ├── options_api/       # Data, methods, computed, watchers 
+│   ├── routing/           # Navigation with Vue Router 
+│   ├── state_management/  # Pinia, Vuex, global store patterns 
+│   ├── styling/           # Scoped styles, CSS variables, Tailwind 
+│   ├── testing/           # Unit/component tests with Vitest, Cypress 
+│   ├── deployment/        # Building, hosting and optimization 
+│   └── advanced/          # Provide/inject, dynamic components, SSR 
+└── projects/              # Vue-based projects 
+    ├── small_projects/    # Mini apps, UI components 
+    ├── basic_projects/    # SPA CRUD, forms, routing 
+    └── advanced_projects/ # Full-featured apps with state, auth, backend
+    
 ```
 
 ---
@@ -30,7 +54,6 @@ Vue/ ├── README.md ├── playground/ # Practice, features and core exa
 
 This roadmap helps you move from beginner to intermediate/advanced Vue development step-by-step.
 
----
 
 ### 🧭 Stage 1 — Getting Started
 - [ ] **What is Vue.js**: Learn about its progressive nature and MVVM design.
@@ -38,7 +61,6 @@ This roadmap helps you move from beginner to intermediate/advanced Vue developme
 - [ ] **Vue File Structure**: Understand `.vue` files and the role of `<script>`, `<template>`, and `<style>`.
 - [ ] **Folder: `getting_started/`**
 
----
 
 ### 🧱 Stage 2 — Components & Reactivity
 - [ ] **Props & Slots**: Pass data and inject content into components.
@@ -46,7 +68,6 @@ This roadmap helps you move from beginner to intermediate/advanced Vue developme
 - [ ] **Lifecycle**: Handle side effects with lifecycle hooks.
 - [ ] **Folder: `components/`, `reactivity/`, `lifecycle/`**
 
----
 
 ### 🔁 Stage 3 — Forms & Events
 - [ ] **Form Handling**: Use `v-model` for two-way binding and form controls.
@@ -54,7 +75,6 @@ This roadmap helps you move from beginner to intermediate/advanced Vue developme
 - [ ] **Events**: Handle native/custom events and emit up to parent components.
 - [ ] **Folder: `forms/`, `events/`**
 
----
 
 ### 🛣️ Stage 4 — Routing & Navigation
 - [ ] **Vue Router**: Define routes and dynamic parameters.
@@ -62,14 +82,12 @@ This roadmap helps you move from beginner to intermediate/advanced Vue developme
 - [ ] **Nested Routes & Layouts**: Use `<router-view>` and nested views.
 - [ ] **Folder: `routing/`**
 
----
 
 ### 🧠 Stage 5 — State Management
 - [ ] **Pinia**: Set up stores and actions using Pinia.
 - [ ] **Vuex (Legacy)**: Explore Vuex for older apps or larger structures.
 - [ ] **Folder: `state_management/`**
 
----
 
 ### 🎨 Stage 6 — Styling & Layouts
 - [ ] **Scoped Styles**: Write CSS locally for components.
@@ -77,14 +95,12 @@ This roadmap helps you move from beginner to intermediate/advanced Vue developme
 - [ ] **Dynamic Styling**: Apply class/style bindings conditionally.
 - [ ] **Folder: `styling/`**
 
----
 
 ### 🧪 Stage 7 — Testing
 - [ ] **Unit Testing**: Test components using Vitest or Jest.
 - [ ] **E2E Testing**: Automate UI tests with Cypress or Playwright.
 - [ ] **Folder: `testing/`**
 
----
 
 ### 🚀 Stage 8 — Deployment
 - [ ] **Build the App**: Use `vite build` or `vue-cli-service build`.
@@ -92,7 +108,6 @@ This roadmap helps you move from beginner to intermediate/advanced Vue developme
 - [ ] **Performance Optimization**: Lazy loading, code splitting.
 - [ ] **Folder: `deployment/`**
 
----
 
 ### 🧩 Stage 9 — Advanced Concepts
 - [ ] **Composition API**: Build with `setup()`, composables, and reusability.
@@ -101,7 +116,6 @@ This roadmap helps you move from beginner to intermediate/advanced Vue developme
 - [ ] **SSR & Nuxt**: Explore Nuxt.js for server-side rendering.
 - [ ] **Folder: `composition_api/`, `advanced/`**
 
----
 
 ### 💼 Stage 10 — Projects & Practice
 - [ ] **Small Projects**: UI cards, counters, image sliders.
@@ -111,22 +125,21 @@ This roadmap helps you move from beginner to intermediate/advanced Vue developme
 
 ---
 
-## 💡 Extras
-
-- Prefer **Composition API** for modern apps (but understand Options API too).
-- Use `script setup` and `<style scoped>` for concise components.
-- Use `volar` for TypeScript support in VS Code.
-- Use `vueuse` for great composition utilities.
-
----
-
 ## 🤝 Community & Contribution
 
 - [ ] **Resources**: Add Vue docs, tutorials, and videos in `resources/` (optional).
 - [ ] **Contribute**: Share components, projects, or learning notes.
 - [ ] **Follow**: [vuejs.org](https://vuejs.org), [Vue Mastery](https://www.vuemastery.com/), and GitHub.
 - [ ] **Join the Community**: Vue Discord, Reddit, Twitter (#vuejs), and forums.
+- [ ] **Open Source**: Collaborate on Vue projects and libraries.
+- [ ] **Feedback**: Share your learning path and experiences with Vue.js.
+- [ ] **Stay Updated**: Follow Vue changelogs, blogs, and events.
+
 
 ---
 
 Happy building with Vue! 🖖⚡  
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>

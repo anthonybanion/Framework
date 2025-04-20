@@ -19,9 +19,34 @@ Whether you're new to Python backends or looking to expand beyond Django, this s
 ---
 
 ## 📂 Folder Structure
+This section is organized into folders and subfolders to help you navigate through the learning process. Each folder contains practical examples, exercises, and projects to reinforce your understanding of Flask.
 
-```playground
-Flask/ ├── README.md ├── playground/ # Core features and practice modules │ ├── getting_started/ # Install Flask, Hello World, CLI basics │ ├── routing/ # URL rules, dynamic routes, request methods │ ├── templates/ # Jinja2 templating and HTML rendering │ ├── static_files/ # Serving CSS, JS, and images │ ├── forms/ # WTForms, CSRF protection, form validation │ ├── models/ # SQLAlchemy models and relationships │ ├── views/ # Controllers (routes + logic) │ ├── config/ # App configuration and environment setup │ ├── authentication/ # Login, registration, sessions, Flask-Login │ ├── blueprints/ # Modular app architecture │ ├── api/ # RESTful API building with Flask-Restful │ ├── file_uploads/ # Uploading and serving user files │ ├── error_handling/ # 404 pages, global exception handlers │ ├── testing/ # Unit and integration testing with Pytest │ ├── deployment/ # Deployment with WSGI, Gunicorn, Docker, etc. │ └── advanced/ # Caching, Celery, background tasks └── projects/ # Sample apps and real-world projects ├── small_projects/ # Minimal examples (quotes API, counter app) ├── basic_projects/ # CRUD, auth, form handling, blueprints └── advanced_projects/ # Full systems with REST APIs, jobs, uploads
+```text
+
+Flask/ 
+├── README.md 
+├── playground/                   # Core features and practice modules 
+│   ├── getting_started/          # Install Flask, Hello World, CLI basics 
+│   ├── routing/                  # URL rules, dynamic routes, request methods 
+│   ├── templates/                # Jinja2 templating and HTML rendering 
+│   ├── static_files/             # Serving CSS, JS, and images 
+│   ├── forms/                    # WTForms, CSRF protection, form validation 
+│   ├── models/                   # SQLAlchemy models and relationships 
+│   ├── views/                    # Controllers (routes + logic) 
+│   ├── config/                   # App configuration and environment setup 
+│   ├── authentication/           # Login, registration, sessions, Flask-Login 
+│   ├── blueprints/               # Modular app architecture 
+│   ├── api/                      # RESTful API building with Flask-Restful 
+│   ├── file_uploads/             # Uploading and serving user files 
+│   ├── error_handling/           # 404 pages, global exception handlers 
+│   ├── testing/                  # Unit and integration testing with Pytest 
+│   ├── deployment/               # Deployment with WSGI, Gunicorn, Docker, etc. 
+│   └── advanced/                 # Caching, Celery, background tasks 
+└── projects/                     # Sample apps and real-world projects 
+    ├── small_projects/           # Minimal examples (quotes API, counter app) 
+    ├── basic_projects/           # CRUD, auth, form handling, blueprints 
+    └── advanced_projects/        # Full systems with REST APIs, jobs, uploads
+
 ```
 
 ---
@@ -30,7 +55,6 @@ Flask/ ├── README.md ├── playground/ # Core features and practice mo
 
 This roadmap will take you from beginner Flask concepts to building robust Python web backends ready for deployment.
 
----
 
 ### 🧭 Stage 1 — Getting Started
 - [ ] **What is Flask**: Understand its purpose and minimalist philosophy.
@@ -38,7 +62,6 @@ This roadmap will take you from beginner Flask concepts to building robust Pytho
 - [ ] **Hello World**: Create your first Flask app using `flask run` and `app.route()`.
 - [ ] **Folder: `getting_started/`**
 
----
 
 ### 🧱 Stage 2 — Routing, Views & Templates
 - [ ] **Routing**: Learn about route definitions, methods, parameters, and redirects.
@@ -46,49 +69,42 @@ This roadmap will take you from beginner Flask concepts to building robust Pytho
 - [ ] **Templates**: Use Jinja2 for dynamic HTML rendering with context data.
 - [ ] **Folder: `routing/`, `views/`, `templates/`**
 
----
 
 ### 📝 Stage 3 — Forms, Validation & Static Files
 - [ ] **Forms**: Use WTForms for form creation and validation.
 - [ ] **Static Files**: Serve CSS, JavaScript, images, and custom assets.
 - [ ] **Folder: `forms/`, `static_files/`**
 
----
 
 ### 🗃️ Stage 4 — Models & Database Integration
 - [ ] **SQLAlchemy**: Connect to databases and define data models.
 - [ ] **Migrations**: Use Flask-Migrate to manage schema changes.
 - [ ] **Folder: `models/`, `config/`**
 
----
 
 ### 🔐 Stage 5 — Authentication & Authorization
 - [ ] **Sessions & Cookies**: Use Flask’s session system.
 - [ ] **User Auth**: Add login and registration with Flask-Login.
 - [ ] **Folder: `authentication/`**
 
----
 
 ### 🧩 Stage 6 — Modularization & APIs
 - [ ] **Blueprints**: Split your app into multiple reusable components.
 - [ ] **API Development**: Build REST APIs with Flask-Restful or Flask API.
 - [ ] **Folder: `blueprints/`, `api/`**
 
----
 
 ### 🗂️ Stage 7 — File Uploads & Error Handling
 - [ ] **File Uploads**: Handle user uploads with Flask and `request.files`.
 - [ ] **Error Handling**: Create custom 404/500 pages and use `@app.errorhandler`.
 - [ ] **Folder: `file_uploads/`, `error_handling/`**
 
----
 
 ### 🧪 Stage 8 — Testing
 - [ ] **Unit Tests**: Test views, forms, and models.
 - [ ] **Integration Tests**: Use test clients to simulate requests.
 - [ ] **Folder: `testing/`**
 
----
 
 ### 🚀 Stage 9 — Deployment & Production
 - [ ] **Production Setup**: Use WSGI servers like Gunicorn or uWSGI.
@@ -96,7 +112,6 @@ This roadmap will take you from beginner Flask concepts to building robust Pytho
 - [ ] **Platforms**: Deploy on Heroku, Railway, or custom VPS.
 - [ ] **Folder: `deployment/`**
 
----
 
 ### ⚙️ Stage 10 — Advanced Topics
 - [ ] **Celery Tasks**: Handle background jobs with Celery and Redis.
@@ -104,7 +119,6 @@ This roadmap will take you from beginner Flask concepts to building robust Pytho
 - [ ] **Admin Interface**: Integrate Flask-Admin or custom dashboards.
 - [ ] **Folder: `advanced/`**
 
----
 
 ### 🧠 Stage 11 — Projects & Real Practice
 - [ ] **Small Projects**: Hello World, joke API, counter app.
@@ -114,22 +128,20 @@ This roadmap will take you from beginner Flask concepts to building robust Pytho
 
 ---
 
-## 💡 Extras
-
-- Use `.env` and `python-dotenv` for environment configs.
-- Stick to `app factory` pattern for scalable Flask applications.
-- Use virtualenv or Poetry for dependency isolation.
-- Follow Flask’s [official style guide](https://flask.palletsprojects.com/en/latest/styleguide/).
-
----
-
 ## 🤝 Community & Contribution
 
 - [ ] **Resources**: Add links to books, cheatsheets, or tutorials in `resources/` (optional folder).
 - [ ] **Open Source**: Contribute to Flask extensions or open tools like `flask-restful`, `flask-login`.
 - [ ] **Stay Updated**: Follow [flask.palletsprojects.com](https://flask.palletsprojects.com/), GitHub, RealPython, and YouTube channels.
 - [ ] **Join the Community**: Engage via GitHub, Reddit, Discord, Stack Overflow, or Flask’s mailing list.
+- [ ] **Contribute**: Share your projects, tips, and experiences with Flask.
+- [ ] **Feedback**: Share your thoughts on this learning path and suggest improvements.
+
 
 ---
 
 Happy hacking with Flask! 🔥🐍  
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>

@@ -20,8 +20,11 @@ Whether you're building a portfolio site, a blog, or a full SaaS platform, this 
 ---
 
 ## 📂 Folder Structure
+This directory is organized into several sections, each focusing on different aspects of Next.js development.
+The structure is designed to help you learn progressively, from the basics to advanced topics.
 
-```plaintext
+```text
+
 Next.js/ 
 ├── README.md 
 ├── playground/                # Experiments and isolated features 
@@ -57,18 +60,7 @@ Next.js/
 
 ## 📚 Learning Path
 
-This roadmap takes you from the core of Next.js to advanced full-stack development using real tools and practices.
-
----
-
-
----
-
-## 📚 Learning Path
-
 This roadmap helps you go from beginner to advanced with NestJS, building real-world backends with confidence.
-
----
 
 ### 🧭 Stage 1 — Getting Started
 - [ ] **What is NestJS**: Understand its purpose and how it's different from plain Express.
@@ -123,11 +115,29 @@ This roadmap helps you go from beginner to advanced with NestJS, building real-w
 - [ ] **Cron Jobs & Scheduling**: Use `@nestjs/schedule`.
 - [ ] **Folder: `advanced/`**
 
+### 🛠️ Stage 8 — Real-World Projects
+- [ ] **basic projects/**: Build simple REST APIs with CRUD operations.
+- [ ] **advanced projects/**: Build full-stack applications with authentication, database, and state management.
+- [ ] **small projects/**: Build small applications with no backend.
+- [ ] **Folder: `projects/`**
+
+
+---
+## 🤝 Community & Contribution
+- [ ] **Resources** : Explore the official [NestJS documentation](https://docs.nestjs.com/) and community resources.
+- [ ] **Contribute** : Feel free to contribute by adding your own projects or improving existing ones.
+- [ ] **Feedback** : Open issues for any questions or suggestions.
+- [ ] **Stay Updated** : Follow [nestjs.com](https://nestjs.com), GitHub, YouTube, and Twitter.
+- [ ] **Join the Community** : Get involved via Discord, Reddit, and Stack Overflow.
+- [ ] **Contribute to this repo** : Add your own projects, examples, or resources to the `projects/` or `resources/` folders.
+
 ---
 
-
-
 Happy coding with NestJS! 🧱🚀  
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>
 
 
 

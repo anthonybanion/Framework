@@ -14,8 +14,13 @@ Whether you're transitioning from JavaScript to TypeScript, or diving into full-
 - Learn advanced concepts like lazy loading, guards, interceptors, and state management with NgRx.
 - Deploy Angular apps using modern workflows and tools.
 
+---
+
 ## 📂 Folder Structure
-```
+This section is organized into folders and subfolders to help you navigate through the learning process. Each folder contains practical examples, exercises, and projects to reinforce your understanding of Angular.
+
+```text
+
 Angular/ 
 ├── README.md 
 ├── playground/                # Learning and experimentation area 
@@ -41,8 +46,6 @@ Angular/
     └── archived_projects/     # Old or unused projects for historical reference
 
 ```
----
-
 ---
 
 ## 📚 Learning Path
@@ -115,17 +118,19 @@ This structured path is designed to take you from Angular beginner to advanced d
 - [ ] **Job Preparation**: Practice Angular interview questions and challenges.
 - [ ] **Folder: `projects/`**
 
+---
 
-
-### 🧠 Stage 10 — Community & Continuous Learning
-- [ ] **Resources**: Explore tutorials, blogs, videos, and docs in the `resources/` folder.
-- [ ] **Contribute**: Share your own examples or tips with the community via PRs.
-- [ ] **Stay Updated**: Follow Angular’s blog, GitHub, and YouTube channels.
-- [ ] **Networking**: Engage with devs on Twitter, forums, Discord, and meetups.
-- [ ] **Mentorship**: Find or become a mentor in the Angular space.
-- [ ] **Open Source**: Contribute to Angular or related libraries on GitHub.
-- [ ] **Keep Practicing**: Build, break, refactor — never stop coding.
+## 🤝 Contribution & Community
+- [ ] **Contribute**: Feel free to fork this repository, create issues, and submit pull requests.
+- [ ] **Community**: Join Angular communities on platforms like Discord, Reddit, and Stack Overflow.
+- [ ] **Stay Updated**: Follow Angular's official blog, GitHub repo, and community resources for the latest updates.
+- [ ] **Resources**: Add links to documentation, tutorials, and examples in the `resources/` folder (if created).
+- [ ] **Open Source**: Contribute to Angular or ecosystem tools on GitHub.
 
 ---
 
 Let’s build robust frontends with Angular! 🅰️💪  
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>

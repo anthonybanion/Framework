@@ -18,8 +18,10 @@ Whether you're just getting started or aiming to build full-scale applications, 
 ---
 
 ## 📂 Folder Structure
+The folder structure is designed to facilitate learning and experimentation with React.
 
-```
+```text
+
 React/
 ├── README.md
 ├── playground/                      # Playground for testing and experimenting with React code
@@ -38,7 +40,9 @@ React/
     └── advanced_projects/           # Advanced projects to practice complex concepts
 
 ```
+
 ---
+
 ## 📚 Learning Path
 
 This learning path is designed to guide you from React fundamentals to advanced development techniques, integrating modern tooling and real-world practices.
@@ -88,10 +92,18 @@ This learning path is designed to guide you from React fundamentals to advanced 
 - [ ] **Explore Tools**:
   - **React Query**, **TanStack Query**, **React Hook Form**, **Formik**, **Zustand**, etc.
 
-### 🧩 Stage 9 — Projects & Community
+### 🧩 Stage 9 — Real-World Projects
+
+- [ ] **Real-World Practice**: Use what you've learned in production-like scenarios.
+- [ ] **basic projects/**: Simple projects to practice basics.
+- [ ] **small projects/**: Small projects to practice intermediate concepts.
+- [ ] **advanced projects/**: Advanced projects to practice complex concepts.
 - [ ] **Projects**: Build applications from basic CRUD to full-scale apps.
   - Folder: `projects/` with subfolders: small, basic, advanced.
-- [ ] **Real-World Practice**: Use what you've learned in production-like scenarios.
+
+---
+## 🤝 Community & Contribution
+
 - [ ] **Resources**: Access curated learning materials, links, and references in `resources/`.
 - [ ] **Join the Community**: Get involved via Discord, GitHub, Twitter, or local meetups.
 - [ ] **Contribute**: Share your own projects or improvements in the repo.
@@ -100,19 +112,9 @@ This learning path is designed to guide you from React fundamentals to advanced 
 - [ ] **Online Courses**: Deepen your skills with guided React bootcamps and tutorials.
 
 ---
-
-## 📅 File Organization Tips
-
-Use ISO 8601 format (`YYYY-MM-DD`) for timestamps in comments and filenames when necessary.  
-You can also include docstrings in the **Google Style** format for complex components and utilities.
-
----
-
-## 🧠 Notes
-
-- All code examples follow React 18+ conventions.
-- Use functional components and hooks as the standard approach.
-- Ensure to keep up with the latest React features and best practices.
-- Feel free to add your own projects or resources to the respective folders.
+Happy coding with React!
 
 
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>

@@ -19,8 +19,10 @@ Whether you're building REST APIs, enterprise systems, or microservices, this sp
 ---
 
 ## 📂 Folder Structure
+This repository is organized into two main sections: `playground/` for hands-on practice and `projects/` for complete applications.
 
-```plaintext
+```text
+
 SpringBoot/ 
 ├── README.md 
 ├── playground/                # Practice and explore individual features 
@@ -109,16 +111,6 @@ This roadmap helps you move from Spring Boot beginner to building advanced and e
 
 ---
 
-## 💡 Extras
-
-- Prefer constructor injection over field injection.
-- Use `MapStruct` for DTO mapping.
-- Generate API docs with `springdoc-openapi` or Swagger UI.
-- Organize layers: controller → service → repository → entity.
-- Use custom annotations to avoid repetition (`@Loggable`, `@SecuredEndpoint`, etc.).
-
----
-
 ## 🤝 Community & Contribution
 
 - [ ] **Resources**: Add books, tutorials, cheatsheets to `resources/` (optional folder).
@@ -129,3 +121,7 @@ This roadmap helps you move from Spring Boot beginner to building advanced and e
 ---
 
 Happy coding with Spring Boot! 🌱🚀  
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>
