@@ -13,7 +13,7 @@ function App() {
   const user = "Anthony"
   const type = "admin"
 
-  const items = ['Inicio', 'Acerca de', 'Contacto', 'Servicios']
+  const items = ['Home', 'About', 'Contacts', 'Services']
   
   const [section, setSection] = useState('Inicio')
   

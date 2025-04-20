@@ -23,8 +23,8 @@ function Header({ user, type }) {
         A header with the name of the application and a navbar with the user logged in
     */
 return (
-    <>
- 
+    
+    <header>
         <Navbar bg="red" variant="dark" expand="lg" className="px-3">
             <Navbar.Brand href="#home">
                 Mi Aplicación
@@ -41,8 +41,7 @@ return (
                 )}
             </Navbar.Collapse>
         </Navbar>
-  
-    </>
+    </header>
 );
 }
 export default Header;
