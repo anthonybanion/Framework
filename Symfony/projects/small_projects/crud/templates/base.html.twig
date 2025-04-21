@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <style>
+            table{
+                width: 100%;
+                border-collapse:collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: left; 
+            }
+            th {
+                blackground-color: #f2f2f2f2
+                font-weigth: bold;
+            }
+            tr:nth-child(even){
+                    blackground-color: #f9f9f9f9
+                }
+            tr:hover{
+                blackground-color: grey;
+            }
+        </style>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+</html>
