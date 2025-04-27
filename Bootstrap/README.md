@@ -48,8 +48,8 @@ This learning path is structured to take you from basic Bootstrap usage to advan
 
 ## 🧭 Stage 1 — Getting Started
 
-- [ ] **Introduction**: What is Bootstrap? Why use it? Understand its design principles.
-- [ ] **Installation**: Learn to use Bootstrap via CDN, npm, or local files.
+- [X] **Introduction**: What is Bootstrap? Why use it? Understand its design principles.
+- [X] **Installation**: Learn to use Bootstrap via CDN, npm, or local files.
 - [ ] **Structure**: Explore how Bootstrap integrates with HTML and CSS.
 - [ ] **Folder**: `basics/` — Start with containers, typography, colors, and display options.
 

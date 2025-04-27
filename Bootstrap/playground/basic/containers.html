@@ -1,0 +1,77 @@
+<!--
+  
+  Description: This is a simple HTML page that demonstrates the use of Bootstrap containers.
+  
+  File: containers.html
+  Author: Anthony Bañon
+  Created: 2025-04-27
+  Last Updated: 2025-04-27
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers</title>
+    <link rel="stylesheet" href="../../compiled/css/bootstrap.min.css">
+    <!-- Add Bootstrap CSS for styling -->
+    
+</head>
+<body>
+   <header class="bg-light text-center p-4">
+    <h1 class="text-primary">Welcome to the Containers Page</h1>
+    <h2 class="text-secondary">This is a simple page to demonstrate the use of Bootstrap containers.</h2>
+   </header> 
+
+   <main>
+    <!-- Color in Bootstrap is:
+     Primary: Blue
+     Secondary: Gray
+     Success: Green
+     Danger: Red
+     Warning: Yellow
+     Info: Light Blue
+     Light: Light Gray
+     Dark: Dark Gray
+     White: White
+     Black: Black
+    -->
+
+     <!-- Container -->
+    <div class="container bg-primary text-center">
+        <p class="text-black">Container, 100% wide until small breakpoint</p>
+    </div>
+    <hr>
+    
+    <!-- Container Fluid -->
+    <div class="container-fluid bg-secondary text-center">
+        <p class="text-white">Fluid container, that is responsive and full-width.</p>
+    </div>
+    <hr>
+
+    <!-- Container with a fixed width -->
+    <div class="container bg-primary p-4">
+        <h2>Container principal</h2>
+    
+        <div class="container bg-light p-4">
+            <h3>Container inside a container</h3>
+            <p>You can put a container inside another container in Bootstrap, but it's not ideal for flexible layouts.<br> 
+                Let me explain:<br>
+            <ol>   
+                <li>A container in Bootstrap is designed to center and automatically set margins for the main content.</li>
+                <li>If you put one container inside another, the margins and width are reset, and you can run into strange alignment issues.</li>
+                <li>For internal layouts (for example, rows and columns, or flexbox), the correct way to do this is to use:</li>
+                <ul>
+                    <li>row and col- for grids.</li>
+                    <li>d-flex and flexbox utilities for aligning elements.</li>
+                </ul>
+            </ol> 
+        </div>
+    </div>
+   </main>
+</body>
+</html>
