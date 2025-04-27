@@ -49,7 +49,7 @@ This learning path is designed to guide you from React fundamentals to advanced 
 
 ### 🧭 Stage 1 — Getting Started
 - [X] **Environment Setup**: Install Node.js, npm, and create a new React app using Create React App or Vite.
-- [ ] **Basics**: Understand what React is, how it works under the hood (virtual DOM, reconciliation), and how to create your first component using JSX.
+- [X] **Basics**: Understand what React is, how it works under the hood (virtual DOM, reconciliation), and how to create your first component using JSX.
 - [ ] **JSX & Props**: Learn the syntax of JSX and how to pass data between components using props.
 - [ ] **State Management (Local)**: Use `useState` to handle local component state.
 - [ ] **Folder: `basics/`** — Hands-on with JSX, props, and state.
