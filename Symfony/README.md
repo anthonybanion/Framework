@@ -40,10 +40,10 @@ Symfony/
 │   └── advanced/               # Advanced Symfony topics (events, middleware, etc.)
 └── projects/                   # Complete projects or mini-projects
     ├── small_projects/         # Simple projects to practice basics
-    ├── basic_projects/         # Basic projects to practice intermediate concepts
+    ├── intermediate_projects/  # Intermediate projects to practice intermediate concepts
     ├── advanced_projects/      # Advanced projects to practice complex concepts
-    ├── completed_projects/      # Completed projects for reference
-    └── archived_projects/       # Archived projects for historical reference
+    ├── completed_projects/     # Completed projects for reference
+    └── archived_projects/      # Archived projects for historical reference
 
 ```
 

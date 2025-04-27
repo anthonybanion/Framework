@@ -24,7 +24,7 @@ The folder structure is designed to facilitate learning and experimentation with
 
 React/
 ├── README.md
-├── playground/                      # Playground for testing and experimenting with React code
+├── workshop/                        # Workshop files for hands-on learning
 │    └── src/                        # Source files for React projects
 │        ├── basics/                 # Fundamentos de React (JSX, props, state)
 │        ├── components/             # Componentes (funcionales, de clase, reutilizables)
