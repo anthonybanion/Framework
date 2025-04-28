@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Input from './components/atomic_design/atoms/input/Input'
-import InputRB from './components/atomic_design/atoms/input/InputRB'
-import Label from './components/atomic_design/atoms/label/Label'
-import MyCard from './components/atomic_design/molecules/card/MyCard'
+import CardRB from './components/atomic_design/molecules/card/CardRB'
 
 function App() {
 
@@ -12,10 +9,8 @@ function App() {
 
   return (
     <>
-      <Label text="Email" htmlFor="email" extraClasses="form-label" />
-      <Input type="email" placeholder="Correo" extraClasses="form-control-lg mb-3" />
-      <InputRB type="text" placeholder="Enter a text" extraClasses="form-control-lg mb-3" />
-      <MyCard title="My Card Title" content="This is the content of the card." image={path} />
+        <CardRB title="My Card" content="This is a card"  />
+     
     </>
   )
 }
