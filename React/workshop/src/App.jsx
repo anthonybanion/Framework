@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import Button from './components/atomic_design/atoms/button/Button'
-import ButtonRB from './components/atomic_design/atoms/button/ButtonRB'
+import CardRB from './components/atomic_design/molecules/card/CardRB'
 
 function App() {
+
+  const path = "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Button color="primary" text="Send"></Button>
-     <ButtonRB color="secondary" text="Button"></ButtonRB>
+        <CardRB title="My Card" content="This is a card"  />
+     
     </>
   )
 }
