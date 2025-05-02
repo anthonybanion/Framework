@@ -26,25 +26,27 @@ This directory is organized to help you navigate through the learning process ef
 
 Express/ 
 ├── README.md 
-├── playground/              # Code snippets, testing routes and utilities 
-│   ├── basics/              # Node.js & Express fundamentals 
-│   ├── routing/             # Express Router, parameters, query strings 
-│   ├── middleware/          # Built-in, third-party, and custom middleware 
-│   ├── controllers/         # Route logic abstraction and organization 
-│   ├── models/              # Mongoose or SQL models (if applicable) 
-│   ├── config/              # Environment setup, database connection 
-│   ├── views/               # Templating engines (EJS, Pug, Handlebars) 
-│   ├── forms/               # Body parsing and form processing 
-│   ├── authentication/      # JWT, session-based auth, and password hashing 
-│   ├── file_uploads/        # File handling with Multer or similar tools 
-│   ├── error_handling/      # Global error management, logging 
-│   ├── api_versioning/      # Versioned routing structures 
-│   ├── testing/             # Testing with Supertest, Mocha, Jest 
-│   └── deployment/          # Docker, PM2, hosting services (Render, Railway) 
-└── projects/                # Full-stack or API projects 
-    ├── small_projects/      # Simple route-based projects 
-    ├── basic_projects/      # REST API projects (CRUD, auth, etc.) 
-    └── advanced_projects/   # Scalable apps with full architecture
+├── playground/                 # Code snippets, testing routes and utilities 
+│   ├── basics/                 # Node.js & Express fundamentals 
+│   ├── routing/                # Express Router, parameters, query strings 
+│   ├── middleware/             # Built-in, third-party, and custom middleware 
+│   ├── controllers/            # Route logic abstraction and organization 
+│   ├── models/                 # Mongoose or SQL models (if applicable) 
+│   ├── config/                 # Environment setup, database connection 
+│   ├── views/                  # Templating engines (EJS, Pug, Handlebars) 
+│   ├── forms/                  # Body parsing and form processing 
+│   ├── authentication/         # JWT, session-based auth, and password hashing 
+│   ├── file_uploads/           # File handling with Multer or similar tools 
+│   ├── error_handling/         # Global error management, logging 
+│   ├── api_versioning/         # Versioned routing structures 
+│   ├── testing/                # Testing with Supertest, Mocha, Jest 
+│   └── deployment/             # Docker, PM2, hosting services (Render, Railway) 
+└── projects/                   # Full-stack or API projects 
+    ├── small_projects/         # Simple projects to practice basics
+    ├── intermediate_projects/  # Intermediate projects to practice intermediate concepts
+    ├── advanced_projects/      # Advanced projects to practice complex concepts
+    ├── completed_projects/     # Completed projects for reference
+    └── archived_projects/      # Archived projects for historical reference
 
 ```
 

@@ -21,11 +21,11 @@ crud/
 ├── config/              # Database and Sequelize configuration
 │   └── db.js
 ├── controllers/         # Business logic for routes
-│   └── product.controller.js
+│   └── controller.js
 ├── models/              # Sequelize models
-│   └── product.model.js
+│   └── model.js
 ├── routes/              # Express route definitions
-│   └── product.routes.js
+│   └── routes.js
 ├── middlewares/         # Custom middlewares (logging, error handling)
 │   └── logger.js
 ├── .env                 # Environment variables

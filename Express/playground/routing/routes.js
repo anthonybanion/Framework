@@ -1,0 +1,82 @@
+const express = require("express");
+const router = express.Router();
+const Producto = require("./model");
+
+// Crear un producto
+router.post("/", async (req, res) => {
+  try {
+    const { nombre, image, descripcion, precio, stock } = req.body;
+    const producto = await Producto.create({
+      nombre,
+      image,
+      descripcion,
+      precio,
+      stock,
+    });
+    res.status(201).json(producto);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+// Obtener todos los productos
+router.get("/", async (req, res) => {
+  try {
+    const productos = await Producto.findAll();
+    res.status(200).json(productos);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Obtener un producto por ID
+router.get("/:id", async (req, res) => {
+  try {
+    const producto = await Producto.findByPk(req.params.id);
+    if (!producto) {
+      return res.status(404).json({ error: "Producto no encontrado" });
+    }
+    res.status(200).json(producto);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Actualizar un producto
+router.put("/:id", async (req, res) => {
+  try {
+    const producto = await Producto.findByPk(req.params.id);
+    if (!producto) {
+      return res.status(404).json({ error: "Producto no encontrado" });
+    }
+
+    const { nombre, image, descripcion, precio, stock } = req.body;
+    await producto.update({ 
+        nombre, 
+        image, 
+        descripcion, 
+        precio, 
+        stock 
+    });
+    res.status(200).json(producto);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+// Eliminar un producto
+router.delete("/:id", async (req, res) => {
+  try {
+    const producto = await Producto.findByPk(req.params.id);
+    if (!producto) {
+      return res.status(404).json({ error: "Producto no encontrado" });
+    }
+
+    await producto.destroy();
+    res.status(204).json();
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+module.exports = router;
