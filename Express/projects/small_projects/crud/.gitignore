@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Variables de entorno
+.env
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor de código
+.vscode/
+.idea/
+
+# nodemon (en caso de archivo específico)
+nodemon.json
+
+# Archivos de prueba y cobertura
+coverage/
