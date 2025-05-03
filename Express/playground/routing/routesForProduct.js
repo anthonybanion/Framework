@@ -1,3 +1,16 @@
+// ==========================================
+// 
+// Description: This file contains the routes for managing products in an Express application.
+//
+// File: routesForProduct.js
+// Author: Anthony Bañon
+// Created: 2025-05-02
+// Last Updated: 2025-05-02
+// ==========================================
+
+
+
+
 const express = require("express");
 const router = express.Router();
 const Producto = require("./model");
