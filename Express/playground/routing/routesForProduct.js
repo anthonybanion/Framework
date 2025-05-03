@@ -15,7 +15,7 @@ const express = require("express");
 const router = express.Router();
 const Producto = require("./model");
 
-// Crear un producto
+// Create a product
 router.post("/", async (req, res) => {
   try {
     const { nombre, image, descripcion, precio, stock } = req.body;
@@ -32,7 +32,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// Obtener todos los productos
+// Get all products
 router.get("/", async (req, res) => {
   try {
     const productos = await Producto.findAll();
@@ -42,7 +42,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-// Obtener un producto por ID
+// Get a product by ID
 router.get("/:id", async (req, res) => {
   try {
     const producto = await Producto.findByPk(req.params.id);
@@ -55,12 +55,12 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// Actualizar un producto
+// Update a product
 router.put("/:id", async (req, res) => {
   try {
     const producto = await Producto.findByPk(req.params.id);
     if (!producto) {
-      return res.status(404).json({ error: "Producto no encontrado" });
+      return res.status(404).json({ error: "Product not found" });
     }
 
     const { nombre, image, descripcion, precio, stock } = req.body;
@@ -77,12 +77,12 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-// Eliminar un producto
+// Delete a product
 router.delete("/:id", async (req, res) => {
   try {
     const producto = await Producto.findByPk(req.params.id);
     if (!producto) {
-      return res.status(404).json({ error: "Producto no encontrado" });
+      return res.status(404).json({ error: "Product not found" });
     }
 
     await producto.destroy();
