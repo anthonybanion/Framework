@@ -14,8 +14,8 @@ const { DataTypes } = require("sequelize");
 const sequelize = require("./database");
 
 // Product model definition
-const Producto = sequelize.define("Producto", {
-  nombre: {
+const Product = sequelize.define("Product", {
+  name: {
     type: DataTypes.STRING,
     allowNull: false,
   },
@@ -23,11 +23,11 @@ const Producto = sequelize.define("Producto", {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  descripcion: {
+  description: {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  precio: {
+  price: {
     type: DataTypes.FLOAT,
     allowNull: false,
   },
@@ -37,4 +37,4 @@ const Producto = sequelize.define("Producto", {
   },
 });
 
-module.exports = Producto;
+module.exports = Product;

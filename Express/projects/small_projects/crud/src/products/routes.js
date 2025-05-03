@@ -1,127 +1,73 @@
-// ==========================================
-// 
-// Description: This file contains the routes for the products API.
-//
-// File: routes.js
-// Author: Anthony Bañon
-// Created: 2025-05-02
-// Last Updated: 2025-05-02
-// ==========================================
-
-
 const express = require("express");
 const router = express.Router();
-const Producto = require("./model");
+const controller = require("./controller");
 
-// Create one or more products
+// POST - Create one or more products
 router.post("/", async (req, res) => {
   try {
     const body = req.body;
-
-    if (Array.isArray(body)) {
-      // Bulk upload of products
-      const productos = await Producto.bulkCreate(body);
-      res.status(201).json(productos);
-    } else {
-      // Individual load
-      const { nombre, image, descripcion, precio, stock } = body;
-      if (!nombre || !image || !descripcion || precio == null || stock == null) {
-        return res.status(400).json({ error: "All fields are required" });
-      }
-
-      const producto = await Producto.create({
-        nombre,
-        image,
-        descripcion,
-        precio,
-        stock,
-      });
-      res.status(201).json(producto);
-    }
+    const result = Array.isArray(body)
+      ? await controller.bulkCreateProducts(body)
+      : await controller.createProduct(body);
+    res.status(201).json(result);
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
 });
 
-// Get all products
-router.get("/", async (req, res) => {
+// GET - All products
+router.get("/", async (_req, res) => {
   try {
-    const productos = await Producto.findAll();
-    res.status(200).json(productos);
+    const products = await controller.getAllProducts();
+    res.status(200).json(products);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
 
-// Get a product by ID
+// GET - Product by ID
 router.get("/:id", async (req, res) => {
   try {
-    const producto = await Producto.findByPk(req.params.id);
-    if (!producto) {
-      return res.status(404).json({ error: "Product not found" });
-    }
-    res.status(200).json(producto);
+    const product = await controller.getProductById(req.params.id);
+    res.status(200).json(product);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    res.status(404).json({ error: err.message });
   }
 });
 
-// Full update with PUT (requires all fields)
+// PUT - Full update
 router.put("/:id", async (req, res) => {
   try {
-    const producto = await Producto.findByPk(req.params.id);
-    if (!producto) {
-      return res.status(404).json({ error: "Product not found" });
-    }
-
-    const { nombre, image, descripcion, precio, stock } = req.body;
-
-    if (!nombre || !image || !descripcion || precio == null || stock == null) {
-      return res.status(400).json({ error: "All fields are required for PUT" });
-    }
-
-    await producto.update({
-      nombre,
-      image,
-      descripcion,
-      precio,
-      stock,
-    });
-
-    res.status(200).json(producto);
+    const product = await controller.updateProductFull(req.params.id, req.body);
+    res.status(200).json(product);
   } catch (err) {
-    res.status(400).json({ error: err.message });
+    const status = err.message === "Product not found" ? 404 : 400;
+    res.status(status).json({ error: err.message });
   }
 });
 
-// Partial update with PATCH (only some fields)
+// PATCH - Partial update
 router.patch("/:id", async (req, res) => {
   try {
-    const producto = await Producto.findByPk(req.params.id);
-    if (!producto) {
-      return res.status(404).json({ error: "Product not found" });
-    }
-
-    await producto.update(req.body); // Sequelize handles which fields to update
-    res.status(200).json(producto);
+    const product = await controller.updateProductPartial(req.params.id, req.body);
+    res.status(200).json(product);
   } catch (err) {
-    res.status(400).json({ error: err.message });
+    const status = err.message === "Product not found" ? 404 : 400;
+    res.status(status).json({ error: err.message });
   }
 });
 
-// Delete a product
+// DELETE - Remove product
 router.delete("/:id", async (req, res) => {
   try {
-    const producto = await Producto.findByPk(req.params.id);
-    if (!producto) {
-      return res.status(404).json({ error: "Product not found" });
-    }
-
-    await producto.destroy();
-    res.status(204).send(); // No content
+    await controller.deleteProduct(req.params.id);
+    res.status(204).send();
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    const status = err.message === "Product not found" ? 404 : 500;
+    res.status(status).json({ error: err.message });
   }
 });
 
 module.exports = router;
+
+
