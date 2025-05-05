@@ -14,7 +14,7 @@ import "./list.css";
 
 function UserList({users}){
     /*
-     * UserList Component
+     * This function renders a list of users.
      *
      * @param {Array} users - List of users to display
      * @returns {JSX.Element} Rendered list of users

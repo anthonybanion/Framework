@@ -13,7 +13,7 @@ import "./list.css";
 
 function ProductList({products}){
     /*
-     * ProductList Component
+     * This function renders a list of products.
      *
      * @param {Array} products Array of product names
      * @returns {JSX.Element} Rendered list of products

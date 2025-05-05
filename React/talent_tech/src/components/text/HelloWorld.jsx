@@ -21,7 +21,7 @@ const styles = {
 
 function HelloWorld({name}) {
     /*
-     * HelloWorld Component
+     * This function renders a greeting message with name.
      *
      * @param {string} name - Name of the user to greet
      * @returns {JSX.Element} Rendered greeting message
@@ -29,7 +29,7 @@ function HelloWorld({name}) {
     
     return (
         <div style={styles}>
-            <h1>Hello {name}</h1>
+            <h2>Hello {name}</h2>
             <p>This is a simple React component.</p>
         </div>
     );

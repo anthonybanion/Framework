@@ -14,7 +14,7 @@ import "./button.css";
 
 function Button({ text, color }) {
     /*
-     * Button Component
+     * This function renders a button with an text and color.
      *
      * @param {string} text - Text to display on the button
      * @param {string} color - Background color of the button
