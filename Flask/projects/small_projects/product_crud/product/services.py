@@ -1,9 +1,20 @@
-from database import openConnection
+"""
+Description: This module provides functions to create, read, update, and delete products in a SQLite database.
+ 
+File: services.py
+Author: Anthony Bañon
+Created: 2025-05-05
+Last Updated: 2025-05-05
+"""
+
+
+
+from .database import openConnection
 
 
 def createProductsTable():
     connection = openConnection()
-    cursor=connection.cursor()
+    cursor = connection.cursor()
     cursor.execute('''CREATE TABLE IF NOT EXISTS "products" (
                     "id" INTEGER NOT NULL UNIQUE,
                     "name" TEXT NOT NULL,

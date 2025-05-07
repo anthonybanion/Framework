@@ -1,9 +1,9 @@
-from productClass import *
-from services import *
+from .productClass import *
+from .services import *
 
-def serealizerShowProducts():
+def serializerShowProducts():
     """
-    Description: 
+    Description: This function retrieves and displays all products.
     
     Args:
         param (type): Description
@@ -17,5 +17,5 @@ def serealizerShowProducts():
     
     products = [Product.from_tuple(product) for product in showProducts()]
     product_dicts = [product.to_dict() for product in products]
-    return print(product_dicts)
+    return product_dicts
 
