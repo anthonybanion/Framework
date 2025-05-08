@@ -19,3 +19,11 @@ def serializerShowProducts():
     product_dicts = [product.to_dict() for product in products]
     return product_dicts
 
+
+def serializerShowProductByID(id):
+
+    product = showProductById(id)
+    if product:
+        return Product.from_tuple(product[0]).to_dict()
+    else:
+        return f"error : Product not found", 404

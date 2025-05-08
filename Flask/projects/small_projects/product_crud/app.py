@@ -10,13 +10,9 @@ def getProducts():
     return jsonify(serializerShowProducts())
 
 
-@pp.route("/products/<int:id>", methods=["GET"])
+@app.route("/products/<int:id>", methods=["GET"])
 def getProductById(id):
-    product = showProductById(id)
-    if product:
-        return jsonify(Product.from_tuple(product[0]).to_dict())
-    else:
-        return jsonify({"error": "Product not found"}), 404
+    return jsonify(serializerShowProductByID(id))
 
 # @app.route("/products", methods=["POST"])
 # def sdfsd89():
