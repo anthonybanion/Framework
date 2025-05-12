@@ -103,6 +103,9 @@ This learning path is designed to guide you from React fundamentals to advanced 
   - Folder: `projects/` with subfolders: small, basic, advanced.
 
 ---
+## Projects
+- [React with Talento Tech ](./talent_tech/README.md) - A complete course on React with Talento Tech.
+---
 ## 🤝 Community & Contribution
 
 - [ ] **Resources**: Access curated learning materials, links, and references in `resources/`.
