@@ -1,0 +1,7 @@
+.myList{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 1rem;
+}

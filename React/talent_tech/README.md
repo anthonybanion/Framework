@@ -33,22 +33,22 @@ Each class in the course is documented as an **issue** in this repository. Each 
 
 | Week | Topic | Link |
 |------|-------|------|
-| 1 | Intro to React and Project Setup | [Issue #66](https://github.com/anthonybanion/LearnFW/issues/66) |
-| 2 | JSX and Functional Components | [Issue #67](https://github.com/anthonybanion/LearnFW/issues/67) |
-| 3 | Component Structure and Basic Navigation | [Issue #68](https://github.com/anthonybanion/LearnFW/issues/68) |
-| 4 | useState and Local State Management | [Issue #69](https://github.com/anthonybanion/LearnFW/issues/69) |
-| 5 | useEffect and API Calls | [Issue #70](https://github.com/anthonybanion/LearnFW/issues/70) |
-| 6 | React Router: Static and Dynamic Routes | [Issue #71](https://github.com/anthonybanion/LearnFW/issues/71) |
-| 7 | Dynamic and Protected Routes | [Issue #72](https://github.com/anthonybanion/LearnFW/issues/72) |
-| 8 | Context API | [Issue #73](https://github.com/anthonybanion/LearnFW/issues/73) |
-| 9 | User Authentication |[Issue #74](https://github.com/anthonybanion/LearnFW/issues/74) |
-| 10 | Product Creation and Validation |[Issue #75](https://github.com/anthonybanion/LearnFW/issues/75) |
-| 11 | Read, Update, and Delete Products |[Issue #76](https://github.com/anthonybanion/LearnFW/issues/76) |
-| 12 | Full CRUD |[Issue #77](https://github.com/anthonybanion/LearnFW/issues/77) |
-| 13 | Styling with Bootstrap or styled-components |[Issue #78](https://github.com/anthonybanion/LearnFW/issues/78) |
-| 14 | Responsive Design and UX |[Issue #79](https://github.com/anthonybanion/LearnFW/issues/79) |
-| 15 | Final Deployment |[Issue #80](https://github.com/anthonybanion/LearnFW/issues/80) |
-| 16 | Final Presentation |[Issue #81](https://github.com/anthonybanion/LearnFW/issues/81) |
+| 1 | Intro to React and Project Setup |[X] [Issue #66](https://github.com/anthonybanion/LearnFW/issues/66) |
+| 2 | JSX and Functional Components |[ ] [Issue #67](https://github.com/anthonybanion/LearnFW/issues/67) |
+| 3 | Component Structure and Basic Navigation |[ ] [Issue #68](https://github.com/anthonybanion/LearnFW/issues/68) |
+| 4 | useState and Local State Management |[ ] [Issue #69](https://github.com/anthonybanion/LearnFW/issues/69) |
+| 5 | useEffect and API Calls |[ ] [Issue #70](https://github.com/anthonybanion/LearnFW/issues/70) |
+| 6 | React Router: Static and Dynamic Routes |[ ] [Issue #71](https://github.com/anthonybanion/LearnFW/issues/71) |
+| 7 | Dynamic and Protected Routes |[ ] [Issue #72](https://github.com/anthonybanion/LearnFW/issues/72) |
+| 8 | Context API |[ ] [Issue #73](https://github.com/anthonybanion/LearnFW/issues/73) |
+| 9 | User Authentication |[ ] [Issue #74](https://github.com/anthonybanion/LearnFW/issues/74) |
+| 10 | Product Creation and Validation |[ ] [Issue #75](https://github.com/anthonybanion/LearnFW/issues/75) |
+| 11 | Read, Update, and Delete Products |[ ] [Issue #76](https://github.com/anthonybanion/LearnFW/issues/76) |
+| 12 | Full CRUD |[ ] [Issue #77](https://github.com/anthonybanion/LearnFW/issues/77) |
+| 13 | Styling with Bootstrap or styled-components |[ ] [Issue #78](https://github.com/anthonybanion/LearnFW/issues/78) |
+| 14 | Responsive Design and UX |[ ] [Issue #79](https://github.com/anthonybanion/LearnFW/issues/79) |
+| 15 | Final Deployment |[ ] [Issue #80](https://github.com/anthonybanion/LearnFW/issues/80) |
+| 16 | Final Presentation |[ ] [Issue #81](https://github.com/anthonybanion/LearnFW/issues/81) |
 
 📝 *Note: Issues will be created and completed week by week as the course progresses.*
 
@@ -116,3 +116,7 @@ Argentina 🇦🇷
 ---
 
 > “Knowledge multiplies when shared.”
+
+<div align="right" style="font-size: 2em;">
+    <a href="../README.md">⬅️ Back</a>
+</div>
