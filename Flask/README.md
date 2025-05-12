@@ -42,10 +42,12 @@ Flask/
 │   ├── testing/                  # Unit and integration testing with Pytest 
 │   ├── deployment/               # Deployment with WSGI, Gunicorn, Docker, etc. 
 │   └── advanced/                 # Caching, Celery, background tasks 
-└── projects/                     # Sample apps and real-world projects 
-    ├── small_projects/           # Minimal examples (quotes API, counter app) 
-    ├── basic_projects/           # CRUD, auth, form handling, blueprints 
-    └── advanced_projects/        # Full systems with REST APIs, jobs, uploads
+└── projects/                     # Complete projects or mini-projects
+    ├── small_projects/           # Simple projects to practice basics
+    ├── intermediate_projects/    # Intermediate projects to practice intermediate concepts
+    ├── advanced_projects/        # Advanced projects to practice complex concepts
+    ├── completed_projects/       # Completed projects for reference
+    └── archived_projects/        # Archived projects for historical reference
 
 ```
 
