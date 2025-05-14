@@ -1,0 +1,11 @@
+.mySection {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.myImage {
+  width: 150px;
+  height: 150px;
+}
