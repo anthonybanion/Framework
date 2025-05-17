@@ -2,13 +2,25 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Navbard from "./components/navbard/Navbard";
 import Main from "./components/main/Main";
-import Gallery from "./components/gallery/Gallery";
+import GalleryTeam from "./components/gallery/GalleryTeam";
 import Footer from "./components/footer/Footer";
 
-const images = [
-  "./public/images/bird.jpg",
-  "./public/images/penguin.jpg",
-  "./public/images/zebra.jpg",
+const team = [
+  {
+    name: "Silvia",
+    role: "Product Owner",
+    image: "./images/bird.jpg",
+  },
+  {
+    name: "Luis",
+    role: "UX/UI Designer",
+    image: "./images/penguin.jpg",
+  },
+  {
+    name: "Matías",
+    role: "Developer",
+    image: "./images/zebra.jpg",
+  },
 ];
 
 function App() {
@@ -17,7 +29,7 @@ function App() {
       <Header />
       <Navbard />
       <Main />
-      <Gallery images={images} />
+      <GalleryTeam team={team} />
       <Footer />
     </>
   );
