@@ -4,6 +4,7 @@ import Navbard from "./components/navbard/Navbard";
 import Main from "./components/main/Main";
 import GalleryTeam from "./components/gallery/GalleryTeam";
 import Footer from "./components/footer/Footer";
+import ProjectCard from "./components/card/ProjectCard";
 
 const team = [
   {
@@ -30,6 +31,12 @@ function App() {
       <Navbard />
       <Main />
       <GalleryTeam team={team} />
+      <ProjectCard
+        title="Project 1"
+        image="./images/penguin.jpg"
+        description="Description for Project 1"
+        buttonText="Learn More"
+      />
       <Footer />
     </>
   );
