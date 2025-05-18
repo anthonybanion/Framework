@@ -4,7 +4,7 @@ import Navbard from "./components/navbard/Navbard";
 import Main from "./components/main/Main";
 import GalleryTeam from "./components/gallery/GalleryTeam";
 import Footer from "./components/footer/Footer";
-import ProjectCard from "./components/card/ProjectCard";
+import Interests from "./components/gallery/Interests";
 
 const team = [
   {
@@ -24,6 +24,8 @@ const team = [
   },
 ];
 
+const interests = ["React", "JavaScript", "APIs", "Diseño UX", "Node.js"];
+
 function App() {
   return (
     <>
@@ -31,12 +33,7 @@ function App() {
       <Navbard />
       <Main />
       <GalleryTeam team={team} />
-      <ProjectCard
-        title="Project 1"
-        image="./images/penguin.jpg"
-        description="Description for Project 1"
-        buttonText="Learn More"
-      />
+      <Interests topics={interests} />
       <Footer />
     </>
   );

@@ -29,7 +29,7 @@ function ProjectCard({ title, image, description, buttonText }) {
 
   function click() {
     // Handle button click event
-    console.log(title);
+    console.log("exploring: " + title);
     console.log("Button clicked!", clicks + 1);
     setClicks(clicks + 1);
   }
