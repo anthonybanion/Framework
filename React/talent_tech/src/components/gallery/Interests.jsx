@@ -62,5 +62,5 @@ export default Interests;
 /*
  * Note: The button color change is not rendered,
  * because the virtual DOM is not updated.
- *
+ * need to use useState to manage the color state.
  */

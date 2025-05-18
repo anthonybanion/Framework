@@ -22,17 +22,17 @@ function Navbard() {
       <ul className="myUl">
         <li>
           <a href="#" className="myAnchor">
-            Inicio
+            Start
           </a>
         </li>
         <li>
           <a href="#" className="myAnchor">
-            Acerca de
+            About
           </a>
         </li>
         <li>
           <a href="#" className="myAnchor">
-            Contacto
+            Contact
           </a>
         </li>
       </ul>
