@@ -1,8 +1,14 @@
 import "./App.css";
-import Home from "./pages/navbard_page/Home";
+import Counter from "./hooks/use_state/Counter";
+import Form from "./hooks/use_state/Form";
 
 function App() {
-  return <Home />;
+  return (
+    <>
+      <Counter />
+      <Form />
+    </>
+  );
 }
 
 export default App;

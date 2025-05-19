@@ -9,7 +9,7 @@
 // ==========================================
 
 import Header from "../../components/header/Header";
-import BootstrapNav from "../../components/navbard/BootstrapNav";
+import BootstrapNav from "../../components/navbar/BootstrapNav";
 import Main from "../../components/main/Main";
 import GalleryTeam from "../../components/gallery/GalleryTeam";
 import Footer from "../../components/footer/Footer";
