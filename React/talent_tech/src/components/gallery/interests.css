@@ -3,16 +3,3 @@
   justify-content: center;
   gap: 20px;
 }
-
-.myButton {
-  background-color: rgb(2, 76, 116);
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-}
-
-.myButton:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
