@@ -1,5 +1,5 @@
-.myCard {
-  background-color: #f9f9f9;
+.myProjectCard {
+  background-color: #cae4e3;
   color: #333;
   padding: 20px;
   border-radius: 10px;
@@ -7,4 +7,9 @@
   max-width: 300px;
   margin: 10px auto;
   text-align: center;
+}
+
+.myImage {
+  width: 150px;
+  height: 150px;
 }

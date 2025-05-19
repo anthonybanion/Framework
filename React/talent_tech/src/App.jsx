@@ -1,15 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Navbard from "./components/navbard/Navbard";
+import Home from "./pages/navbard_page/Home";
 
 function App() {
-  return (
-    <>
-      <Navbard />
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
