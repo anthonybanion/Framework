@@ -34,6 +34,7 @@ function Form() {
         onChange={(e) => setName(e.target.value)} // Update name state
         placeholder="Enter your name"
       />
+      <p>Hello {name}</p>
       <button type="submit">Send</button>
     </form>
   );
