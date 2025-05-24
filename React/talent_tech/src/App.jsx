@@ -1,8 +1,5 @@
 import "./App.css";
-import Home from "./pages/navbard_page/Home";
 
-function App() {
-  return <Home />;
-}
+function App() {}
 
 export default App;
