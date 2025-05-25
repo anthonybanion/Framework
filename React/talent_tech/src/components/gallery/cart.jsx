@@ -1,11 +1,11 @@
-import ProductCard from "../card/ProductCard";
+import CartCard from "../card/CartCard";
 
 function Cart({ products }) {
   return (
-    <section className="d-flex flex-wrap justify-content-center gap-3">
+    <section className="container d-flex flex-column align-items-center gap-3">
       {products.map((product) => (
-        <div key={product.id}>
-          <ProductCard products={product} />
+        <div key={product.id} className="w-100 d-flex justify-content-center">
+          <CartCard products={product} />
         </div>
       ))}
     </section>

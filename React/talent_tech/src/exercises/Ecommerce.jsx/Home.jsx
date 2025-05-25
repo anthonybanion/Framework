@@ -1,5 +1,9 @@
 import ProductGallery from "../../components/gallery/ProductGallery";
-
+import Cart from "../../components/gallery/cart";
+import BootstrapNav from "../../components/navbar/BootstrapNav";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
+import { useState } from "react";
 const products = [
   {
     id: 1,
@@ -66,10 +70,30 @@ const products = [
   },
 ];
 
+const navItems = [
+  { id: 1, label: "Products Gallery" },
+  { id: 2, label: "Cart" },
+];
+
 function Ecommerce() {
+  const [seccion, setSeccion] = useState("Product Gallery");
+  const direct = () => {
+    switch (seccion) {
+      case "Product Gallery":
+        return <ProductGallery products={products} />;
+      case "Cart":
+        return <Cart products={products} />;
+      default:
+        return <ProductGallery products={products} />;
+    }
+  };
+
   return (
     <>
-      <ProductGallery products={products} />
+      <Header />
+      <BootstrapNav items={navItems} onSelection={setSeccion} />
+      {direct()}
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,15 @@
+.cart_card {
+  max-width: 50rem; /* 800px ≈ 50rem si 1rem = 16px */
+  width: 100%;
+}
+
+.cart_img {
+  height: 13.75rem; /* 220px */
+  width: 12.5rem; /* 200px */
+  object-fit: cover;
+}
+
+.cart_info {
+  flex: 1;
+  padding: 1rem;
+}
