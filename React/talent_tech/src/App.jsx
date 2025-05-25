@@ -1,10 +1,10 @@
 import "./App.css";
-import UseStatePage from "./pages/use_state_page/UseStatePage";
+import Ecommerce from "./exercises/Ecommerce.jsx/Home";
 
 function App() {
   return (
     <>
-      <UseStatePage />
+      <Ecommerce />
     </>
   );
 }
