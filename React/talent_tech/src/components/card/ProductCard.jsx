@@ -14,9 +14,9 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "./productCard.css";
 
-function ProductCard({ products }) {
+function ProductCard({ products, onAddToCart }) {
   const [clicks, setClicks] = useState(0); // State to keep track of button clicks
-  const buttonText = "Explore";
+  const buttonText = "Add to cart";
   function click() {
     // Handle button click event
     console.log("exploring: " + products.name);
@@ -28,12 +28,16 @@ function ProductCard({ products }) {
     <Card className="product_card">
       <Card.Img variant="top" src={products.image} className="product_img" />
       <Card.Body>
-        <Card.Title>{products.name}</Card.Title>
-        <Card.Text>{products.description}</Card.Text>
-        <Card.Text>
-          <strong>${products.price}</strong>
+        <Card.Title className="h5 text-primary fw-bold text-uppercase">
+          {products.name}
+        </Card.Title>
+        <Card.Text className="text-muted small mb-2">
+          {products.description}
         </Card.Text>
-        <Button variant="primary" onClick={click}>
+        <Card.Text className="text-muted small mb-2 fw-bold">
+          ${products.price}
+        </Card.Text>
+        <Button variant="primary" onClick={() => onAddToCart(products)}>
           {buttonText}
         </Button>
       </Card.Body>

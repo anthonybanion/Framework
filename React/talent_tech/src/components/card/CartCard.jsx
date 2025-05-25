@@ -12,10 +12,17 @@ function CartCard({ products }) {
       </div>
       <div className="cart_info">
         <Card.Body>
-          <Card.Title>{products.name}</Card.Title>
-          <Card.Text>{products.description}</Card.Text>
-          <Card.Text>
-            <strong>${products.price}</strong>
+          <Card.Title className="h5 text-primary fw-bold text-uppercase">
+            {products.name}
+          </Card.Title>
+          <Card.Text className="text-muted small mb-2">
+            {products.description}
+          </Card.Text>
+          <Card.Text className="text-muted small mb-2 fw-bold">
+            ${products.price}
+          </Card.Text>
+          <Card.Text className="text-muted small mb-2 fw-bold">
+            Quantity: {products.quantity}
           </Card.Text>
           <Button variant="primary">{buttonText}</Button>
         </Card.Body>
