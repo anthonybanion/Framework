@@ -1,15 +1,16 @@
 // ==========================================
 //
-// the Home component which serves as the main page of the application.
+// the NavbarPage component which serves as
+// the main page of the application.
 //
-// File: Home.jsx
+// File: NavbarPage.jsx
 // Author: Anthony Bañon
 // Created: 2025-05-18
-// Last Updated: 2025-05-18
+// Last Updated: 2025-05-24
 // ==========================================
 
 import Header from "../../components/header/Header";
-import BootstrapNav from "../../components/navbard/BootstrapNav";
+import BootstrapNav from "../../components/navbar/BootstrapNav";
 import Main from "../../components/main/Main";
 import GalleryTeam from "../../components/gallery/GalleryTeam";
 import Footer from "../../components/footer/Footer";
@@ -41,7 +42,7 @@ const navItems = [
 
 const interests = ["React", "JavaScript", "APIs", "Diseño UX", "Node.js"];
 
-function Home() {
+function NavbarPage() {
   const [seccion, setSeccion] = useState("Main");
   const direct = () => {
     switch (seccion) {
@@ -66,4 +67,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default NavbarPage;

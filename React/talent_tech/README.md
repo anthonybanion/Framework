@@ -83,6 +83,7 @@ talent_tech/
 │   ├── services/            # API or Firebase service functions
 │   ├── styles/              # Global CSS or style modules
 │   ├── utils/               # Helper and utility functions (e.g. validators)
+│   ├── exercises/           # Exercises and practice code
 │   ├── App.jsx
 │   └── main.jsx
 ├── .gitignore

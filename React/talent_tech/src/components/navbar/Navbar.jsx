@@ -2,15 +2,15 @@
 //
 // Description: React component that displays a navigation bar.
 //
-// File: Navbard.jsx
+// File: Navbar.jsx
 // Author: Anthony Bañon
 // Created: 2025-05-13
 // Last Updated: 2025-05-13
 // ==========================================
 
-import "./navbard.css";
+import "./navbar.css";
 
-function Navbard() {
+function Navbar() {
   /*
    * This function renders a navigation bar with three links.
    *
@@ -18,7 +18,7 @@ function Navbard() {
    */
 
   return (
-    <nav className="myNavbard">
+    <nav className="myNavbar">
       <ul className="myUl">
         <li>
           <a href="#" className="myAnchor">
@@ -39,4 +39,4 @@ function Navbard() {
     </nav>
   );
 }
-export default Navbard;
+export default Navbar;

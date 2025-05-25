@@ -1,8 +1,12 @@
 import "./App.css";
-import Home from "./pages/navbard_page/Home";
+import Ecommerce from "./exercises/Ecommerce.jsx/Home";
 
 function App() {
-  return <Home />;
+  return (
+    <>
+      <Ecommerce />
+    </>
+  );
 }
 
 export default App;

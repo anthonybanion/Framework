@@ -1,3 +1,13 @@
+// ==========================================
+//
+// The footer component for the application.
+//
+// File: Footer.jsx
+// Author: Anthony Bañon
+// Created: 2025-05-18
+// Last Updated: 2025-05-18
+// ==========================================
+
 import "./footer.css";
 
 function Footer() {
