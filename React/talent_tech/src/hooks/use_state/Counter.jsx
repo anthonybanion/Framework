@@ -5,7 +5,7 @@
 // File: Counter.jsx
 // Author: Anthony Bañon
 // Created: 2025-05-18
-// Last Updated: 2025-05-18
+// Last Updated: 2025-05-24
 // ==========================================
 
 import React, { useState } from "react";
@@ -15,8 +15,18 @@ function Counter() {
   return (
     <div>
       <p>Counter Value: {counter}</p>
-      <button onClick={() => setCounter(counter + 1)}>Increase</button>
-      <button onClick={() => setCounter(counter - 1)}>Decrease</button>
+      <button
+        onClick={() => setCounter(counter + 1)}
+        className="btn btn-primary me-2"
+      >
+        Increase
+      </button>
+      <button
+        onClick={() => setCounter(counter - 1)}
+        className="btn btn-danger me-2"
+      >
+        Decrease
+      </button>
     </div>
   );
 }

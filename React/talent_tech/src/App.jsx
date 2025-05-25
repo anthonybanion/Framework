@@ -1,14 +1,10 @@
 import "./App.css";
-import Counter from "./hooks/use_state/Counter";
-import Form from "./hooks/use_state/Form";
-import Text from "./hooks/use_state/Text";
+import UseStatePage from "./pages/use_state_page/UseStatePage";
 
 function App() {
   return (
     <>
-      <Counter />
-      <Form />
-      <Text />
+      <UseStatePage />
     </>
   );
 }
