@@ -14,14 +14,9 @@ import ProductCard from "../card/ProductCard";
 function ProductGallery({ products }) {
   return (
     <section className="d-flex flex-wrap justify-content-center gap-3">
-      {products.map((product, index) => (
-        <div key={index}>
-          <ProductCard
-            title={product.name}
-            image={product.image}
-            description={product.description}
-            buttonText="Explore"
-          />
+      {products.map((product) => (
+        <div key={product.id}>
+          <ProductCard products={product} />
         </div>
       ))}
     </section>
