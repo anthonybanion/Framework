@@ -36,8 +36,8 @@ Each class in the course is documented as an **issue** in this repository. Each 
 | 1    | Intro to React and Project Setup            | [X] [Issue #66](https://github.com/anthonybanion/LearnFW/issues/66) |
 | 2    | JSX and Functional Components               | [X] [Issue #67](https://github.com/anthonybanion/LearnFW/issues/67) |
 | 3    | Component Structure and Basic Navigation    | [X] [Issue #68](https://github.com/anthonybanion/LearnFW/issues/68) |
-| 4    | useState and Local State Management         | [ ] [Issue #69](https://github.com/anthonybanion/LearnFW/issues/69) |
-| 5    | useEffect and API Calls                     | [ ] [Issue #70](https://github.com/anthonybanion/LearnFW/issues/70) |
+| 4    | useState and Local State Management         | [X] [Issue #69](https://github.com/anthonybanion/LearnFW/issues/69) |
+| 5    | useEffect and API Calls                     | [X] [Issue #70](https://github.com/anthonybanion/LearnFW/issues/70) |
 | 6    | React Router: Static and Dynamic Routes     | [ ] [Issue #71](https://github.com/anthonybanion/LearnFW/issues/71) |
 | 7    | Dynamic and Protected Routes                | [ ] [Issue #72](https://github.com/anthonybanion/LearnFW/issues/72) |
 | 8    | Context API                                 | [ ] [Issue #73](https://github.com/anthonybanion/LearnFW/issues/73) |

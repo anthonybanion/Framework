@@ -1,10 +1,9 @@
 import "./App.css";
-import Ecommerce from "./exercises/Ecommerce.jsx/Home";
-
+import PreDelivery from "./exercises/pre_delivery/PreDelivery";
 function App() {
   return (
     <>
-      <Ecommerce />
+      <PreDelivery />
     </>
   );
 }

@@ -27,7 +27,7 @@ function ProductCard({ products, onAddToCart }) {
   return (
     <Card className="product_card">
       <Card.Img variant="top" src={products.image} className="product_img" />
-      <Card.Body>
+      <Card.Body className="d-flex flex-column align-items-center justify-content-evenly">
         <Card.Title className="h5 text-primary fw-bold text-uppercase">
           {products.name}
         </Card.Title>
