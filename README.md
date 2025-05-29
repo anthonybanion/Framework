@@ -1,6 +1,6 @@
-# 📘 LearnFW — A Practical Journey Through Web Frameworks
+# 📘 Framework — A Practical Journey Through Web Frameworks
 
-Welcome to **LearnFW** — a curated repository for hands-on learning with modern web development frameworks.
+Welcome to **Framework** — a curated repository for hands-on learning with modern web development frameworks.
 
 This space serves as my personal lab to explore core concepts, build real features, and strengthen practical skills through structured mini-projects and experiments.
 
@@ -73,7 +73,7 @@ The general structure of the repository is as follows:
 
 ```text
 
-Learning Framework (LearnFW)/ 
+Framework/ 
 │
 ├── README.md                  <- Explain the purpose of the repository
 |
