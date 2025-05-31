@@ -9,6 +9,8 @@
 // ==========================================
 
 import "./interests.css";
+import "../button/button.css";
+import { useState } from "react";
 
 function Interests({ topics }) {
   /*
@@ -18,7 +20,8 @@ function Interests({ topics }) {
    * @returns {JSX.Element} The rendered list of buttons.
    */
 
-  let color = "blue";
+  //let color = "blue";  error 1
+  const [color, setColor] = useState("blue");
 
   function changeColor() {
     /*
@@ -30,9 +33,11 @@ function Interests({ topics }) {
 
     console.log("Button clicked!");
     if (color === "blue") {
-      color = "green";
+      //color = "green";  error 2
+      setColor("green");
     } else {
-      color = "blue";
+      //color = "blue";  error 3
+      setColor("blue");
     }
     alert("Button clicked!");
     console.log("Button clicked!", color);
@@ -43,10 +48,16 @@ function Interests({ topics }) {
       <h2>Interests</h2>
 
       <div className="myInterests">
-        {topics.map((topic, index) => (
+        {topics.map((topic) => (
+          /*
+           * This function renders a button for each interest topic.
+           * Do not use index as a key, because it is a unique value in each topic.
+           *
+           */
+
           <button
             className="myButton"
-            key={index}
+            key={topic}
             onClick={changeColor}
             style={style}
           >

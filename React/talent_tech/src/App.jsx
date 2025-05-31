@@ -1,5 +1,12 @@
 import "./App.css";
+import PreDelivery from "./exercises/pre_delivery/PreDelivery";
+function App() {
+  return (
+    <>
+      <PreDelivery />
+    </>
+  );
+}
 
-function App() {}
 
 export default App;
