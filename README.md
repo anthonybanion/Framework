@@ -6,7 +6,6 @@ This space serves as my personal lab to explore core concepts, build real featur
 
 I believe the best way to grow as a developer is simple: **build, break, and learn.**
 
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -20,49 +19,128 @@ I believe the best way to grow as a developer is simple: **build, break, and lea
 
 This repository is dedicated to learning and mastering various web frameworks. The goal is to gain practical experience through the development of simple and complex applications. From backend to frontend, you will find projects that allow you to explore both the server-side logic and client-side rendering.
 
-## Technologies used
-Each badge links to the corresponding framework's README with learning paths, examples, and projects.
+<h2 align="center">Technologies used</h2>
 
-### 🎨 UX UI Design 
+<h3 align="center">🎨 UX UI Design</h3>
+    <p align="center">
+    <img 
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" 
+        height="40px"
+        alt="Figma"/>
+    <img 
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" 
+        height="40px"
+        alt="Canva"/>
+        &nbsp;
+     <img
+          src="https://cdn.simpleicons.org/diagramsdotnet/orange"
+          height="40px"
+          alt="diagrams.net"
+        />
 
-[![Figma Link](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white 'Figma Link')](https://www.figma.com/files/recents-and-sharing?fuid=1121329785337751851)
-
-
-
-
-### 🎆 Front End 
-
-[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](./Angular/README.md)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](./React/README.md)
-[![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)](./Svelte/README.md)
-[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)](./Vue/README.md)
-
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](./Bootstrap/README.md)
-<!-- [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](./Tailwind/README.md) -->
-
-
-
-
-### 🧰 Back End 
- 
-[![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](./Django/README.md)
-[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](./Express/README.md)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](./FastApi/README.md)
-[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](./Flask/README.md)
-[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](./Laravel/README.md)
-
-[![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](./Nest/README.md)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](./Next/README.md)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](./SpringBoot/README.md)
-[![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)](./Symfony/README.md)
-
-
-### 🗄️ Databases Used 
-
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)](https://mariadb.org/)
+<h3 align="center">🎆 Front End</h3>
+<p align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" 
+            height="40px"
+            alt="AngularJS"
+            />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+          height="40px"
+          alt="React"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+          height="40px"
+          alt="Vue.js"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg"
+          height="40px"
+          alt="Svelte"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+          height="40px"
+          alt="Bootstrap"
+        />
+      </p>
+<h3 align="center">🧰 Back End</h3>
+<p align="center">
+        <img
+          src="https://cdn.simpleicons.org/django/green"
+          height="40px"
+          alt="Django"
+        />
+        <img
+          src="https://cdn.simpleicons.org/flask/red"
+          height="40px"
+          alt="Flask"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
+          height="40px"
+          alt="FastAPI"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg"
+          height="40px"
+          alt="NestJS"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+          height="40px"
+          alt="Next.js"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+          height="40px"
+          alt="Spring"
+        />
+        <img
+          src="https://cdn.simpleicons.org/symfony/salmon"
+          height="40px"
+          alt="Symfony"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+          height="40px"
+          alt="Laravel"
+        />
+        <img
+          src="https://cdn.simpleicons.org/express/gold"
+          height="40px"
+          alt="Express"
+        />
+      </p>
+<h3 align="center">🗄️ Databases</h3>
+<p align="center">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+          height="40px"
+          alt="MySQL"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+          height="40px"
+          alt="PostgreSQL"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+          height="40px"
+          alt="MongoDB"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+          height="40px"
+          alt="SQLite"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg"
+          height="40px"
+          alt="MariaDB"
+        />
+      </p>
 
 ---
 
@@ -70,45 +148,48 @@ Each badge links to the corresponding framework's README with learning paths, ex
 
 The general structure of the repository is as follows:
 
-
 ```text
 
-Framework/ 
-│
-├── README.md                  <- Explain the purpose of the repository
+Framework/
 |
-├── Angular/
-│   ├── README.md              <- Describe the Symfony projects
-│   └──.../ 
-├── Bootstrap/
-│   └──.../
-├── Django/
-│   └──.../
-├── Express/
-│   └──.../
-├── FastApi/
-│   └──.../
-├── Flask/
-│   └──.../
-├── Laravel/
-│   └──.../
-├── Nest/
-│   └──.../
-├── Next/
-│   └──.../
-├── React/
-│   └──.../
-├── SpringBoot/
-│   └──.../
-├── Svelte/
-│   └──.../
-├── Symfony/
-│   └──.../
-└── Vue/
-    └──.../
+├── Angular/         # Angular projects and examples
+├── Bootstrap/       # Bootstrap projects and examples
+├── Django/          # Django projects and examples
+├── Express/         # Express projects and examples
+├── FastApi/         # FastAPI projects and examples
+├── Flask/           # Flask projects and examples
+├── Laravel/         # Laravel projects and examples
+├── Nest/            # NestJS projects and examples
+├── Next/            # Next.js projects and examples
+├── React/           # React projects and examples
+├── SpringBoot/      # Spring Boot projects and examples
+├── Svelte/          # Svelte projects and examples
+├── Symfony/         # Symfony projects and examples
+├── Vue/             # Vue.js projects and examples
+├── README.md
+└── LICENSE
 ```
 
 Each framework (e.g., Symfony, React, Node.js) has its own dedicated folder where related projects are stored.
+
+---
+
+## Subfolders
+
+- [Angular](./Angular/README.md)
+- [Bootstrap](./Bootstrap/README.md)
+- [Django](./Django/README.md)
+- [Express](./Express/README.md)
+- [FastAPI](./FastApi/README.md)
+- [Flask](./Flask/README.md)
+- [Laravel](./Laravel/README.md)
+- [NestJS](./Nest/README.md)
+- [Next.js](./Next/README.md)
+- [React](./React/README.md)
+- [Spring Boot](./SpringBoot/README.md)
+- [Svelte](./Svelte/README.md)
+- [Symfony](./Symfony/README.md)
+- [Vue.js](./Vue/README.md)
 
 ---
 
@@ -134,11 +215,10 @@ This repository is licensed under the [MIT License](LICENSE). Feel free to use a
 ## Author
 
 👤 **Anthony Banion**  
-Student of System Analysis and aspiring Backend Developer.  
+Student of System Analysis and aspiring Backend Developer.
 
 ---
 
 ## Acknowledgements
 
 Special thanks to the developers and communities behind the frameworks used in this repository. Without their work, this learning experience would not be possible.
-
