@@ -1,0 +1,15 @@
+{% extends "basic.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>Thi is a CDUR</h1>
+{% for person in persona_list %}
+<table action = "" method = "POST">
+    <tr>
+        <td>{{ person.nombre }}</td>
+        <td>{{ person.edad }}</td>
+        <td>{{ person.email }}</td>
+        <td><a href="{%url 'delete' person.id%}">X</a><a href="{%url 'update' person.id%}">M</a></td>
+    </tr>
+</table>
+{% endfor %}
+{% endblock %}

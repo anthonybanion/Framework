@@ -1,0 +1,14 @@
+{% load static %}
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <a href="{% url 'index' %}">Home</a>
+        <a href="{% url 'create' %}">Create</a>
+    </header>
+    <img src="{% static 'images/python.png' %}" alt="Logo" width="100">
+    {% block content %}{% endblock %}
+</body>
+</html>
