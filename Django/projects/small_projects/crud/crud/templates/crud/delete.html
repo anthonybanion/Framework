@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+</head>
+<body>
+    <div class="card delete-user-card">
+        <div class="card-body">
+            <form action="" method="post" class="d-flex flex-column delete-user-form">
+                <div class= "text-center delete-menu-text">
+                    ¿Está seguro que desea borrar este usuario?
+                    {{persona.nombre}}
+                </div>    
+                {% csrf_token %}
+                <div class= "d-flex justify-content-center delete-menu-btn">
+                    <a class="btn btn-user-cancel mx-4 btn-mw" href="{% url 'index' %}">Volver</a>
+                    <!-- {% comment %} <div class="ml-auto"></div> {% endcomment %} -->
+    
+                    <button type="submit" class= "btn btn-user-success mx-4 btn-mw">Eliminar</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
