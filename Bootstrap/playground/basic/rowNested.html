@@ -1,0 +1,50 @@
+<!--
+  
+  Description: This is a simple HTML page that demonstrates nested rows and columns using Bootstrap.
+  
+  File: rowNested.html
+  Author: Anthony Bañon
+  Created: 2025-09-07
+  Last Updated: 2025-09-07
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers</title>
+    <link rel="stylesheet" href="../../compiled/css/bootstrap.min.css">
+    <!-- Add Bootstrap CSS for styling -->
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Main column -->
+            <div class="col-md-8">
+                <p class="bg-primary text-white text-center">Primary column (8/12)</p>
+
+                <!-- Row nested inside column -->
+                <div class="row">
+                    <div class="col-6">
+                        <p class="bg-success text-white text-center">Internal column (6/12)</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="bg-warning text-dark text-center">Internal column (6/12)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another column next to it -->
+            <div class="col-md-4">
+                <p class="bg-danger text-white text-center">Secondary column (4/12)</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

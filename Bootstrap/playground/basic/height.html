@@ -1,0 +1,82 @@
+<!--
+  
+  Description: This is a simple HTML page that demonstrates different height settings using Bootstrap.
+  
+  File: height.html
+  Author: Anthony Bañon
+  Created: 2025-09-07
+  Last Updated: 2025-09-07
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers</title>
+    <link rel="stylesheet" href="../../compiled/css/bootstrap.min.css">
+    <!-- Add Bootstrap CSS for styling -->
+
+</head>
+
+<body>
+    <div class="container my-4">
+        <div class="row text-center">
+            <!-- 1. Automatic height (depends on content) -->
+            <div class="col-6 bg-primary text-white">
+                <p>Automatic height</p>
+                <p>Conforms to the content</p>
+            </div>
+            <div class="col-6 bg-success text-white">
+                <p>Height automatic</p>
+            </div>
+        </div>
+
+        <div class="row text-center mt-3 align-items-center">
+            <!-- 2. Height with padding -->
+            <div class="col-6 bg-warning text-dark p-5">
+                <p>With padding (p-5)</p>
+                <p>Higher thanks to internal space</p>
+            </div>
+            <div class="col-6 bg-danger text-white">
+                <p>Normal</p>
+            </div>
+        </div>
+
+        <div class="row text-center mt-3" style="height:200px;">
+            <!-- 3. Fixed height with style -->
+            <div class="col-6 bg-info text-white" style="height:200px;">
+                <p>Fixed height: 200px</p>
+            </div>
+            <div class="col-6 bg-secondary text-white">
+                <p>Automatic height</p>
+            </div>
+        </div>
+
+        <div class="row text-center mt-3" style="height:200px;">
+            <!-- 4. Relative height with utilities (h-100, h-50, etc.) -->
+            <div class="col-6 bg-dark text-white h-100">
+                <p>h-100 → occupies the entire height of the row</p>
+            </div>
+            <div class="col-6 bg-light text-dark h-50">
+                <p>h-50 → occupies half </p>
+            </div>
+        </div>
+
+        <div class="row text-center mt-3 align-items-stretch" style="height:200px;">
+            <!-- 5. Height with flexbox (stretch) -->
+            <div class="col-6 bg-primary text-white">
+                <p>Flexbox stretch</p>
+                <p>Stretches to fill the entire height</p>
+            </div>
+            <div class="col-6 bg-success text-white">
+                <p>Flexbox stretch</p>
+                <p>It also stretches</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
